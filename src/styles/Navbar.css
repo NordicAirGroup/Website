@@ -25,10 +25,10 @@ body {
 }
 
 .center-section img {
-  width: 150px; /* Set your desired width */
-  height: auto; /* This will maintain the aspect ratio */
-  display: block; /* Optional: for centering the image */
-  margin: 0 auto; /* Optional: for centering the image */
+  width: 150px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto;
 }
 
 
