@@ -24,17 +24,13 @@ body {
   align-items: center;
 }
 
-.center-section {
-  font-size: 40px !important;
-  font-weight: bold !important;
-  --text-stroke-color: rgba(255, 255, 255, 0.6) !important;
-  color: transparent !important;
-  -webkit-text-stroke: 1px var(--text-stroke-color) !important;
-  letter-spacing: 9px !important;
-  border: none !important;
-  background: none !important;
-  cursor: pointer !important;
+.center-section img {
+  width: 150px; /* Set your desired width */
+  height: auto; /* This will maintain the aspect ratio */
+  display: block; /* Optional: for centering the image */
+  margin: 0 auto; /* Optional: for centering the image */
 }
+
 
 .center-selection button:hover {
   background: none !important;
