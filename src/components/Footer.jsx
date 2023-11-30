@@ -1,17 +1,17 @@
 import React from "react";
-//import "../styles/footer.css"
+import "../styles/footer.css"
 
 const Footer = () => {
   return (
     <footer>
-      <div className="container">
+      <div className="footer-container">
         <div className="row">
           {/* Company Information */}
           <div className="col">
-            <h3>Company Name</h3>
-            <p>Address: 123 Street, City</p>
-            <p>Phone: (123) 456-7890</p>
-            <p>Email: contact@example.com</p>
+            <h3>Nordic Air Group</h3>
+            <p>P.O. Box: Essingestråket 25, Stockholm</p>
+            <p>Phone: (46) 72-531 26 56</p>
+            <p>Email: Info@nordicairgroup.com</p>
           </div>
 
           {/* Quick Links */}
@@ -36,18 +36,22 @@ const Footer = () => {
           {/* Social Media Links */}
           <div className="col">
             <h3>Follow Us</h3>
-            <a href="http://facebook.com">Facebook</a>
+            <a href="https://www.youtube.com/channel/UCDqiDc1Zw7VaCPPcnjhhXcw">YouTube</a>
             <br />
-            <a href="http://twitter.com">Twitter</a>
+            <a href="https://www.facebook.com/people/Nordic-Air-Group/61553922128129/">Facebook</a>
             <br />
-            <a href="http://instagram.com">Instagram</a>
+            <a href="https://twitter.com/NordicAirGroup">Twitter</a>
+            <br />
+            <a href="https://www.instagram.com/nordicairgroup/">Instagram</a>
+            <br />
+            <a href="https://twitter.com/NordicAirGroup">Twitter</a>
           </div>
         </div>
 
-        {/* Copyright */}
+        {/* https://www.youtube.com/channel/UCDqiDc1Zw7VaCPPcnjhhXcw */}
         <div className="row">
           <div className="col">
-            <p>&copy; 2023 Company Name. All Rights Reserved.</p>
+            <p>&copy; 2023 Nordic Air Group. All Rights Reserved.</p>
           </div>
         </div>
       </div>

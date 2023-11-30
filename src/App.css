@@ -55,6 +55,8 @@ html {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 3rem;
+  font-family: inherit !important;
+  text-align: center;
 }
 
 .hero-title,
@@ -133,4 +135,41 @@ html {
   outline: none !important;
   border: none !important;
   background: transparent !important;
+  margin-top: 5vh !important;
+}
+
+@media screen and (max-width: 768px) {
+
+  .App-header {
+    /* Adjust flex direction or padding as needed for mobile */
+  }
+
+  .container {
+    /* Adjustments for mobile, if necessary */
+  }
+
+  .background-video {
+    /* Adjustments for mobile, if necessary */
+  }
+
+  .video-overlay {
+    /* Adjustments for mobile, if necessary */
+  }
+
+  .hero-title {
+    font-size: 2rem; /* Smaller font size for mobile */
+    padding: 0 20px; /* Add padding for text not to touch the edges */
+  }
+
+  .box {
+    width: 100px; /* Smaller boxes */
+    margin: 0 2px; /* Less margin */
+  }
+
+  .about-button {
+    left: 50%; /* Center align the button */
+    transform: translateX(-50%); /* Ensure it's perfectly centered */
+    /* Adjust top position if necessary */
+  }
+  /* Add more mobile-specific styles as needed */
 }

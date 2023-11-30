@@ -4,7 +4,7 @@
   padding: 20px 0;
 }
 
-.container {
+.footer-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -24,19 +24,25 @@
 }
 
 h3 {
-  color: #007bff;
+  color: #8f949a;
   margin-bottom: 15px;
 }
 
-p,
+p {
+  color: #666;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
 a {
   color: #666;
   text-decoration: none;
   line-height: 1.6;
 }
 
+
 a:hover {
-  text-decoration: underline;
+  color: #007bff;
 }
 
 ul {
@@ -46,4 +52,48 @@ ul {
 
 li {
   margin-bottom: 10px;
+}
+
+
+/* Existing CSS for footer.css */
+
+/* ... Your existing CSS rules ... */
+
+/* Media queries for mobile devices */
+@media screen and (max-width: 768px) {
+
+  .footer {
+    padding: 10px 0; /* Less padding */
+  }
+
+  .footer-container {
+    padding: 0 10px; /* Adjust padding for mobile */
+  }
+
+  .row {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    align-items: center; /* Center-align items */
+  }
+
+  .col {
+    min-width: auto; /* Auto width for flexible layout */
+    padding: 10px; /* Less padding */
+    flex: 1 1 auto; /* Adjust flex settings for columns */
+    max-width: 100%; /* Ensure columns do not exceed screen width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+
+  h3, p, a {
+    text-align: center; /* Center-align text for readability */
+  }
+
+  /* Adjust list items if necessary */
+  ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  li {
+    text-align: center;
+  }
 }

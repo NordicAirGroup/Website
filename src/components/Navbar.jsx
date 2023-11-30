@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Navbar.css";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import "../logo.svg";
 
 const Navbar = () => {
   return (
@@ -19,7 +20,9 @@ const Navbar = () => {
       </div>
       <div>
         <Button className="center-section" component={Link} to="/">
-          <span>NORDICAIRGROUP</span>
+          <span>
+          <img src="logo.svg" alt="NordicAirGroup" />
+          </span>
         </Button>
       </div>
       <div className="right-section">

@@ -92,3 +92,45 @@ body {
   transition-duration: 400ms;
   transition-property: width, left;
 }
+
+/* Existing CSS for Navbar.css */
+
+/* ... Your existing CSS rules ... */
+
+/* Media queries for mobile devices */
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    padding: 10px 20px; /* Less padding */
+    flex-wrap: wrap; /* Allow navbar items to wrap */
+  }
+
+  .left-section,
+  .center-section,
+  .right-section {
+    flex: 1 100%; /* Take full width on small screens */
+    justify-content: center; /* Center content */
+    padding: 5px 0; /* Adjust padding */
+  }
+
+  .center-section {
+    font-size: 24px !important; /* Smaller font size for mobile */
+  }
+
+  .left-section span,
+  .right-section span {
+    margin: 0 10px; /* Less margin */
+  }
+
+  .navbutton {
+    font-size: 16px; /* Smaller font size */
+    padding: 5px 10px; /* Adjust padding */
+  }
+
+  /* Responsive adjustments for the navbar button hover effect */
+  .navbutton:after {
+    height: 1px; /* Thinner line for smaller screens */
+  }
+
+  /* Adjustments for any additional navbar elements as needed */
+}
