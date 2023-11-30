@@ -9,13 +9,13 @@ const Navbar = () => {
     <div className="navbar">
       <div className="left-section">
         <button className="navbutton">
-          <span>REFERRALS</span>
+          <span>CONTACT</span>
         </button>
         <button className="navbutton">
           <span>OUR STORY</span>
         </button>
         <button className="navbutton">
-          <span>AVIATION</span>
+          <span>INVENTORY</span>
         </button>
       </div>
       <div>
@@ -28,10 +28,10 @@ const Navbar = () => {
           <span>SERVICES</span>
         </button>
         <button className="navbutton">
-          <span>INVENTORY</span>
+          <span>AVIATION </span>
         </button>
         <button className="navbutton">
-          <span>CONTACT</span>
+          <span>REFERRALS</span>
         </button>
       </div>
     </div>
