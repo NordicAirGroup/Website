@@ -32,8 +32,6 @@
 .about-card1 .p1 {
   padding-left: 10vh;
 }
-<<<<<<< HEAD
-=======
 
 /* Existing CSS for joar.css */
 
@@ -41,7 +39,6 @@
 
 /* Media queries for mobile devices */
 @media screen and (max-width: 768px) {
-
   .container {
     /* Adjust container for mobile, if necessary */
     justify-content: center;
@@ -73,7 +70,4 @@
   .about-card1 .p1 {
     padding-left: 0; /* Remove extra left padding */
   }
-
-  /* Add more mobile-specific styles as needed */
 }
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d

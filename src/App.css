@@ -55,11 +55,8 @@ html {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 3rem;
-<<<<<<< HEAD
-=======
   font-family: inherit !important;
   text-align: center;
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d
 }
 
 .hero-title,
@@ -138,13 +135,10 @@ html {
   outline: none !important;
   border: none !important;
   background: transparent !important;
-<<<<<<< HEAD
-=======
   margin-top: 5vh !important;
 }
 
 @media screen and (max-width: 768px) {
-
   .App-header {
     /* Adjust flex direction or padding as needed for mobile */
   }
@@ -177,5 +171,4 @@ html {
     /* Adjust top position if necessary */
   }
   /* Add more mobile-specific styles as needed */
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d
 }

@@ -24,29 +24,13 @@ body {
   align-items: center;
 }
 
-<<<<<<< HEAD
-.center-section {
-  font-size: 40px !important;
-  font-weight: bold !important;
-  --text-stroke-color: rgba(255, 255, 255, 0.6) !important;
-  color: transparent !important;
-  -webkit-text-stroke: 1px var(--text-stroke-color) !important;
-  letter-spacing: 9px !important;
-  border: none !important;
-  background: none !important;
-  cursor: pointer !important;
-}
-
-=======
 .center-section img {
-  width: 150px; 
-  height: auto; 
-  display: block; 
+  width: 150px;
+  height: auto;
+  display: block;
   margin: 0 auto;
 }
 
-
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d
 .center-selection button:hover {
   background: none !important;
   color: transparent !important;
@@ -103,8 +87,6 @@ body {
   transition-duration: 400ms;
   transition-property: width, left;
 }
-<<<<<<< HEAD
-=======
 
 /* Existing CSS for Navbar.css */
 
@@ -112,7 +94,6 @@ body {
 
 /* Media queries for mobile devices */
 @media screen and (max-width: 768px) {
-
   .navbar {
     padding: 10px 20px; /* Less padding */
     flex-wrap: wrap; /* Allow navbar items to wrap */
@@ -147,4 +128,3 @@ body {
 
   /* Adjustments for any additional navbar elements as needed */
 }
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d

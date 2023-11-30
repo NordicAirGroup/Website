@@ -4,11 +4,7 @@
   padding: 20px 0;
 }
 
-<<<<<<< HEAD
-.container {
-=======
 .footer-container {
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -28,13 +24,6 @@
 }
 
 h3 {
-<<<<<<< HEAD
-  color: #007bff;
-  margin-bottom: 15px;
-}
-
-p,
-=======
   color: #8f949a;
   margin-bottom: 15px;
 }
@@ -45,21 +34,14 @@ p {
   line-height: 1.6;
 }
 
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d
 a {
   color: #666;
   text-decoration: none;
   line-height: 1.6;
 }
 
-<<<<<<< HEAD
-a:hover {
-  text-decoration: underline;
-=======
-
 a:hover {
   color: #007bff;
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d
 }
 
 ul {
@@ -70,9 +52,6 @@ ul {
 li {
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
-=======
-
 
 /* Existing CSS for footer.css */
 
@@ -80,7 +59,6 @@ li {
 
 /* Media queries for mobile devices */
 @media screen and (max-width: 768px) {
-
   .footer {
     padding: 10px 0; /* Less padding */
   }
@@ -102,7 +80,9 @@ li {
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
 
-  h3, p, a {
+  h3,
+  p,
+  a {
     text-align: center; /* Center-align text for readability */
   }
 
@@ -116,4 +96,3 @@ li {
     text-align: center;
   }
 }
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d

@@ -22,11 +22,9 @@ function Hero() {
           <source src={videoSource} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-<<<<<<< HEAD
-        <h1 className="hero-title">Stop being broke, fly a jet!</h1>
-=======
-        <h1 className="hero-title">Connecting ambitions, one aircraft at a time.</h1>
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d
+        <h1 className="hero-title">
+          Connecting ambitions, one aircraft at a time.
+        </h1>
         <Button className="about-button" component={Link} to="/about">
           <span className="box">A B O U T</span>
         </Button>

@@ -2,10 +2,7 @@ import React from "react";
 import "../styles/Navbar.css";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
-=======
 import logo from "../logo.png";
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d
 
 const Navbar = () => {
   return (
@@ -23,11 +20,7 @@ const Navbar = () => {
       </div>
       <div>
         <Button className="center-section" component={Link} to="/">
-<<<<<<< HEAD
-          <span>NORDICAIRGROUP</span>
-=======
           <img src={logo} alt="NordicAirGroup" />
->>>>>>> 8ed9fa64a1c7f3291e0a0e82773b905bf48aaf0d
         </Button>
       </div>
       <div className="right-section">
