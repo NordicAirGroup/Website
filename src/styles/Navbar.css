@@ -14,7 +14,8 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 10;
+  height: 60px;
 }
 
 .left-section,
@@ -22,6 +23,7 @@ body {
 .right-section {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .center-section img {
@@ -32,8 +34,8 @@ body {
 }
 
 .center-selection button:hover {
-  background: none !important;
-  color: transparent !important;
+  background: none;
+  color: transparent;
 }
 
 .left-section span,
@@ -88,43 +90,67 @@ body {
   transition-property: width, left;
 }
 
-/* Existing CSS for Navbar.css */
+.menu-button {
+  display: none; /* Hide menu button on larger screens */
+}
 
-/* ... Your existing CSS rules ... */
+.dropdown-menu {
+  display: none; /* Ensure dropdown is not displayed initially */
+}
 
-/* Media queries for mobile devices */
 @media screen and (max-width: 768px) {
   .navbar {
-    padding: 10px 20px; /* Less padding */
-    flex-wrap: wrap; /* Allow navbar items to wrap */
+    padding: 10px 20px;
   }
 
   .left-section,
   .center-section,
   .right-section {
-    flex: 1 100%; /* Take full width on small screens */
-    justify-content: center; /* Center content */
-    padding: 5px 0; /* Adjust padding */
+    padding: 5px 0;
   }
 
-  .center-section {
-    font-size: 24px !important; /* Smaller font size for mobile */
+  .center-section img {
+    width: 120px;
   }
 
   .left-section span,
   .right-section span {
-    margin: 0 10px; /* Less margin */
+    margin: 0 10px;
   }
 
   .navbutton {
-    font-size: 16px; /* Smaller font size */
-    padding: 5px 10px; /* Adjust padding */
+    display: none;
   }
 
-  /* Responsive adjustments for the navbar button hover effect */
-  .navbutton:after {
-    height: 1px; /* Thinner line for smaller screens */
+  .menu-button {
+    display: block;
   }
 
-  /* Adjustments for any additional navbar elements as needed */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 60px; /* Adjust based on your navbar's height */
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Background color of dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
+    z-index: 1;
+    transition: all 0.3s ease; /* Smooth transition for opening/closing */
+  }
+
+  .dropdown-menu.show {
+    display: block;
+  }
+
+  .dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black; /* Text color */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+  }
+
+  .dropdown-menu a:hover {
+    background-color: #ddd; /* Background color on hover */
+  }
 }

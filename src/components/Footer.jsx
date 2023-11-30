@@ -52,7 +52,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* https://www.youtube.com/channel/UCDqiDc1Zw7VaCPPcnjhhXcw */}
         <div className="row">
           <div className="col">
             <p>&copy; 2023 Nordic Air Group. All Rights Reserved.</p>
