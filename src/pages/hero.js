@@ -16,6 +16,7 @@ function Hero() {
           width="100%"
           height="auto"
           autoPlay
+          playsInline
           muted
           loop
         >
