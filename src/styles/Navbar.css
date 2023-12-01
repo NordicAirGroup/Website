@@ -18,23 +18,35 @@ body {
   height: 60px;
 }
 
+.ghost-element {
+  visibility: hidden;
+  flex: 1;
+}
+
 .left-section,
-.center-section,
 .right-section {
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.center-section img {
-  width: 9vw;
+.logo-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 15;
+}
+
+.logo-button img {
+  width: 7vw;
   height: auto;
   display: block;
   margin: 0 auto;
   margin-top: 2vh;
 }
 
-.center-selection button:hover {
+.logo-button button:hover {
   background: none;
   color: transparent;
 }
@@ -132,13 +144,13 @@ body {
   }
 
   .left-section,
-  .center-section,
+  .logo-button,
   .right-section {
     padding: 5px 0;
   }
 
-  .center-section img {
-    width: 120px;
+  .logo-button img {
+    width: 20vw;
   }
 
   .left-section span,
@@ -186,11 +198,20 @@ body {
 }
 
 @media screen and (min-width: 3000px) {
-  .center-section img {
-    width: 6vw;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  .logo-button img {
+    width: 5vw;
     margin-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .logo-button img {
+    width: 13vw;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .logo-button img {
+    width: 25vw;
   }
 }

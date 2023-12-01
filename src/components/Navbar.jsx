@@ -41,11 +41,15 @@ const Navbar = () => {
           <span>INVENTORY</span>
         </button>
       </div>
-      <div>
-        <Button className="center-section" component={Link} to="/">
+
+      <div className="logo-container">
+        <Button className="logo-button" component={Link} to="/">
           <img src={logo} alt="NordicAirGroup" />
         </Button>
       </div>
+
+      <div className="ghost-element"></div>
+
       <div className="right-section">
         <button className="navbutton">
           <span>SERVICES</span>
