@@ -48,8 +48,6 @@ const Navbar = () => {
         </Button>
       </div>
 
-      <div className="ghost-element"></div>
-
       <div className="right-section">
         <button className="navbutton">
           <span>SERVICES</span>

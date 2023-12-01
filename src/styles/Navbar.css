@@ -7,8 +7,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #fff;
   position: absolute;
   top: 0;
@@ -18,23 +18,21 @@ body {
   height: 60px;
 }
 
-.ghost-element {
-  visibility: hidden;
-  flex: 1;
-}
-
-.left-section,
-.right-section {
-  flex: 1;
+.left-section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
 }
 
 .logo-container {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   z-index: 15;
 }
 
@@ -125,6 +123,7 @@ body {
   margin: 6px 0;
   transition: 0.4s;
 }
+
 
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
