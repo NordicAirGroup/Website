@@ -4,8 +4,8 @@ import Socials from "./Socials";
 
 const Joar = () => {
   return (
-    <div className="container">
-      <div className="wrapper">
+    <div className="joar-container">
+      <div className="joar-wrapper">
         <div className="about-card1">
           <h1>Joar Lennermark</h1>
           <p>Co-Founder</p>

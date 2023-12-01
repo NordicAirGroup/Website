@@ -1,4 +1,4 @@
-.container {
+.joar-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,12 +34,13 @@
 }
 
 @media screen and (max-width: 768px) {
+.joar-container {
+  height: 130vh;
+}
+
   .about-card1 {
-    width: auto;
-    height: auto;
-    padding: 20px;
-    box-sizing: border-box;
-    margin: 10px;
+    width: 90vw;
+    height: 90vw;
     flex-direction: column;
     align-items: center;
   }
