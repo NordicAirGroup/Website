@@ -51,7 +51,7 @@ body {
 }
 
 .navbutton {
-  font-size: 18px;
+  font-size: 1vw;
   color: #e1e1e1;
   font-family: inherit;
   font-weight: 800;
@@ -98,7 +98,7 @@ body {
   display: none; /* Ensure dropdown is not displayed initially */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 806px) {
   .navbar {
     padding: 10px 20px;
   }

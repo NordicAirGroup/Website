@@ -54,9 +54,10 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 3rem;
+  font-size: 2.3vw;
   font-family: inherit !important;
   text-align: center;
+  width: 70vw;
 }
 
 .hero-title,
@@ -126,7 +127,6 @@ html {
 
 .about-button {
   position: absolute !important;
-  left: 45%;
   top: 50%;
   font-size: 16px !important;
   color: rgb(255, 255, 255) !important;
@@ -135,40 +135,24 @@ html {
   outline: none !important;
   border: none !important;
   background: transparent !important;
-  margin-top: 5vh !important;
+  margin-top: 6vh !important;
+  left: 50%; /* Center align the button */
+  transform: translateX(-50%);
 }
 
-@media screen and (max-width: 768px) {
-  .App-header {
-    /* Adjust flex direction or padding as needed for mobile */
-  }
-
-  .container {
-    /* Adjustments for mobile, if necessary */
-  }
-
-  .background-video {
-    /* Adjustments for mobile, if necessary */
-  }
-
-  .video-overlay {
-    /* Adjustments for mobile, if necessary */
-  }
-
+@media screen and (max-width: 1070px) {
   .hero-title {
-    font-size: 2rem; /* Smaller font size for mobile */
-    padding: 0 20px; /* Add padding for text not to touch the edges */
+    font-size: 4vw;
   }
 
   .box {
-    width: 100px; /* Smaller boxes */
-    margin: 0 2px; /* Less margin */
+    width: 100px;
+    margin: 0 2px;
   }
+}
 
-  .about-button {
-    left: 50%; /* Center align the button */
-    transform: translateX(-50%); /* Ensure it's perfectly centered */
-    /* Adjust top position if necessary */
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 5vw;
   }
-  /* Add more mobile-specific styles as needed */
 }

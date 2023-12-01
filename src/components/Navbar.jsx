@@ -55,7 +55,7 @@ const Navbar = () => {
           className="menu-button"
           onClick={() => setDropdownVisible(!dropdownVisible)}
         >
-          {/* Icon or text for menu button */}
+          ≡
         </button>
 
         <div className={`dropdown-menu ${dropdownVisible ? "show" : ""}`}>
