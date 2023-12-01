@@ -4,8 +4,19 @@ import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import "../App.css";
 import Navbar from "../components/Navbar";
+import { useEffect } from "react";
 
 function Hero() {
+  useEffect(() => {
+    // Select all video elements and set their attributes
+    const videos = document.getElementsByTagName("video");
+    for (let video of videos) {
+      video.setAttribute("playsinline", "");
+      video.setAttribute("muted", "");
+      video.play();
+    }
+  }, []);
+
   return (
     <div className="container">
       <header className="App-header">
