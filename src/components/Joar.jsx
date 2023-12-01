@@ -8,7 +8,7 @@ const Joar = () => {
       <div className="wrapper">
         <div className="about-card1">
           <h1>Joar Lennermark</h1>
-          <p>Info about me</p>
+          <p>Co-Founder</p>
           <p className="p1">Info about me</p>
           <Socials />
         </div>

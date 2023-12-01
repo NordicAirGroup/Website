@@ -4,7 +4,7 @@ import style from "../styles/Privacy.css";
 
 function About() {
   return (
-    <div className="container">
+    <div className="privacy-container">
       <Navbar />
       <div className="privacy-content">
         <h1>Privacy Policy</h1>
