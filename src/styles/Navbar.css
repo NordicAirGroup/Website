@@ -27,10 +27,11 @@ body {
 }
 
 .center-section img {
-  width: 150px;
+  width: 9vw;
   height: auto;
   display: block;
   margin: 0 auto;
+  margin-top: 2vh;
 }
 
 .center-selection button:hover {
@@ -91,11 +92,11 @@ body {
 }
 
 .menu-button {
-  display: none; /* Hide menu button on larger screens */
+  display: none;
 }
 
 .dropdown-menu {
-  display: none; /* Ensure dropdown is not displayed initially */
+  display: none;
 }
 
 .menu-container {
@@ -113,17 +114,14 @@ body {
   transition: 0.4s;
 }
 
-/* Rotate first bar */
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
 
-/* Fade out the second bar */
 .change .bar2 {
   opacity: 0;
 }
 
-/* Rotate last bar */
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
 }
@@ -161,13 +159,13 @@ body {
   .dropdown-menu {
     display: none;
     position: absolute;
-    top: 60px; /* Adjust based on your navbar's height */
+    top: 60px;
     left: 0;
     right: 0;
-    background-color: #fff; /* Background color of dropdown */
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for depth */
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    transition: all 0.3s ease; /* Smooth transition for opening/closing */
+    transition: all 0.3s ease;
   }
 
   .dropdown-menu.show {
@@ -178,11 +176,21 @@ body {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: black; /* Text color */
-    transition: background-color 0.3s ease; /* Smooth transition for hover */
+    color: black;
+    transition: background-color 0.3s ease;
   }
 
   .dropdown-menu a:hover {
-    background-color: #ddd; /* Background color on hover */
+    background-color: #ddd;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  .center-section img {
+    width: 6vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10vh;
   }
 }
