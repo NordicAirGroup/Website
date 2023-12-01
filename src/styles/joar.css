@@ -33,41 +33,29 @@
   padding-left: 10vh;
 }
 
-/* Existing CSS for joar.css */
-
-/* ... Your existing CSS rules ... */
-
-/* Media queries for mobile devices */
 @media screen and (max-width: 768px) {
-  .container {
-    /* Adjust container for mobile, if necessary */
-    justify-content: center;
-    align-items: center;
-    padding: 10px; /* Add padding for smaller screens */
-  }
-
   .about-card1 {
-    width: auto; /* Full width on small screens */
-    height: auto; /* Auto height for flexible content */
-    padding: 20px; /* Add padding for smaller screens */
-    box-sizing: border-box; /* Include padding in width/height calculations */
-    margin: 10px; /* Add margin around the card */
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center-align items */
+    width: auto;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-card1 h1 {
-    font-size: 4vh; /* Adjust font size for smaller screens */
-    padding: 10px; /* Adjust padding */
-    text-align: center; /* Center-align text */
+    font-size: 4vh;
+    padding: 10px;
+    text-align: center;
   }
 
   .about-card1 p {
-    align-self: center; /* Center-align paragraphs */
-    padding: 5px; /* Adjust padding */
+    align-self: center;
+    padding: 5px;
   }
 
   .about-card1 .p1 {
-    padding-left: 0; /* Remove extra left padding */
+    padding-left: 0;
   }
 }

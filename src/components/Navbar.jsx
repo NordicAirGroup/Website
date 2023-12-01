@@ -4,6 +4,7 @@ import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import logo from "../logo.png";
 import { useState, useEffect } from "react";
+import Menu from "@mui/material";
 
 const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -21,6 +22,10 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
 
   return (
     <div className="navbar">
@@ -55,7 +60,11 @@ const Navbar = () => {
           className="menu-button"
           onClick={() => setDropdownVisible(!dropdownVisible)}
         >
-          ≡
+          <div class="menu-container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
         </button>
 
         <div className={`dropdown-menu ${dropdownVisible ? "show" : ""}`}>
