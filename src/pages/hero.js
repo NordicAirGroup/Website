@@ -20,7 +20,6 @@ function Hero() {
   return (
     <div className="container">
       <header className="App-header">
-        <Navbar />
         <div className="video-overlay"></div>
         <video
           className="background-video"

@@ -4,7 +4,6 @@ import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import logo from "../logo.png";
 import { useState, useEffect } from "react";
-import Menu from "@mui/material";
 
 const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -23,9 +22,11 @@ const Navbar = () => {
     };
   }, []);
 
-  function myFunction(x) {
-    x.classList.toggle("change");
-  }
+  const [isActive, setIsActive] = useState(false);
+
+  const toggleClass = () => {
+    setIsActive(!isActive);
+  };
 
   return (
     <div className="navbar">
@@ -60,7 +61,10 @@ const Navbar = () => {
           className="menu-button"
           onClick={() => setDropdownVisible(!dropdownVisible)}
         >
-          <div class="menu-container" onclick="myFunction(this)">
+          <div
+            className={isActive ? "menu-container change" : "menu-container"}
+            onClick={toggleClass}
+          >
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
