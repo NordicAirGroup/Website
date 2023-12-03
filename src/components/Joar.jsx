@@ -30,6 +30,7 @@ const Joar = () => {
             Email: Joar@nordicairgroup.com
           </p>
           <Socials className="Joar-Socials" />
+          <div className="ghost-element-for-socials"></div>
         </div>
       </div>
     </div>
