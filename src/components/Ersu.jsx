@@ -12,7 +12,7 @@ const Ersu = () => {
           <h1>Ersu Dalbudak</h1>
           <p>Co-Founder & CEO</p>
           <p className="p1">
-            Being the Co-Founder of Nordic Air Group, Ersu Lennermark has a
+            Being the Co-Founder of Nordic Air Group, Ersu Dalbudak has a
             passion for aviation, sales, and entrepreneurship. With very high
             ambitions of dedicating his life towards improving and evolving
             humanity, Nordic Air Group is the first leap of making this dream a
