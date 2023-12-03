@@ -59,7 +59,7 @@
   font-style: normal;
 }
 
-@media screen and (max-width: 805px) {
+@media screen and (max-width: 1042px) {
   .joar-wrapper {
     flex-direction: column;
     align-items: center;
