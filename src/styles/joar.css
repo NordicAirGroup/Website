@@ -2,61 +2,99 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh; /* Changed from height to min-height */
+  background-color: red;
+  padding-top: 15vw;
 }
 
-.about-card1 {
+.joar-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: blue; /* or any desired color */
+}
+
+.joar-img {
+  width: 32vw; /* adjust as needed */
+  height: 32vw; /* adjust as needed */
+  border-radius: 50%; /* this makes the image round */
+  margin-right: 0; /* space between the image and the card */
+}
+
+.joar-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 90vh;
-  height: 60vh;
+  width: 42vw;
+  height: calc(900px - 20vw);
   background-color: #fff;
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: relative;
 }
 
-.about-card1 h1 {
-  font-size: 3.7vh;
+.joar-card h1 {
+  font-size: 2vw;
   padding-right: 5.5vh;
   padding-top: 1vh;
   padding-bottom: 0vh;
 }
 
-.about-card1 p {
+.joar-card p {
+  align-self: flex-end;
+  padding-right: 3vh;
+  font-style: italic;
+}
+
+.joar-card .p1 {
+  padding-left: 5vh;
+  font-style: normal;
+}
+
+.joar-card .p2 {
   align-self: flex-start;
-  padding-left: 4vh;
+  padding-left: 2vh;
+  text-align: left;
+  padding-top: 3vh;
+  font-size: 14.5px;
+  font-style: normal;
 }
 
-.about-card1 .p1 {
-  padding-left: 10vh;
-}
-
-@media screen and (max-width: 768px) {
-.joar-container {
-  height: 130vh;
-}
-
-  .about-card1 {
-    width: 90vw;
-    height: 90vw;
+@media screen and (max-width: 805px) {
+  .joar-wrapper {
     flex-direction: column;
     align-items: center;
   }
 
-  .about-card1 h1 {
-    font-size: 4vh;
-    padding: 10px;
-    text-align: center;
+  .joar-card h1 {
+    font-size: 25px;
   }
 
-  .about-card1 p {
-    align-self: center;
-    padding: 5px;
+  .joar-img {
+    order: 1;
+    width: 50vw;
+    height: auto;
+    margin-bottom: 20px;
   }
 
-  .about-card1 .p1 {
-    padding-left: 0;
+  .joar-card {
+    order: 2;
+    width: 90vw;
+    height: calc(750px - 20vw);
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .joar-card {
+    height: 520px;
+    width: 800px;
+  }
+
+  .joar-img {
+    width: 620px; /* adjust as needed */
+    height: 620px; /* adjust as needed */
+  }
+
+  .joar-card h1 {
+    font-size: 37px;
   }
 }

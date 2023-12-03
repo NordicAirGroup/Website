@@ -1,0 +1,4 @@
+.about-container {
+  min-height: 100vh; /* Changed from height to min-height */
+  background-color: blue;
+}

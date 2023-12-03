@@ -2,6 +2,7 @@
   background-color: #f8f9fa;
   color: #333;
   padding: 20px 0;
+  position: relative;
 }
 
 .footer-container {
@@ -9,6 +10,7 @@
   margin: 0 auto;
   padding: 0 15px;
   padding-top: 6vh;
+  position: relative;
 }
 
 .row {

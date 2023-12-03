@@ -128,7 +128,7 @@ body {
   text-decoration: none;
   color: #333333;
   font-size: 14px;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   border-bottom: 1px solid #eaeaea;
   border-radius: 10px;
 }
@@ -158,7 +158,6 @@ body {
   transition: 0.4s;
 }
 
-
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
@@ -171,7 +170,7 @@ body {
   transform: translate(0, -11px) rotate(45deg);
 }
 
-@media screen and (max-width: 806px) {
+@media screen and (max-width: 805px) {
   .navbar {
     padding: 10px 20px;
   }
