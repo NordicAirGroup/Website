@@ -19,7 +19,7 @@ const Socials = () => {
         </button>
         </a>
 
-        <a href="https://www.linkedin.com/in/joar-lennermark-768a9525a/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/ersu-dalbudak/" target="_blank" rel="noopener noreferrer">
         <button className="card2">
           <svg
             viewBox="0 0 24 24"

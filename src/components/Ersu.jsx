@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/ersu.css";
-import Socials from "./Socials";
+import Socials from "./Socials-Ersu";
 import ErsuImage from "../assets/Ersu-photo.png";
 
 const Ersu = () => {
