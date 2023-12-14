@@ -10,17 +10,14 @@ const Ersu = () => {
         <img className="ersu-img" src={ErsuImage} alt="Ersu" />
         <div className="ersu-card">
           <h1>Ersu Dalbudak</h1>
-          <p>Co-Founder & CEO</p>
+          <p>Co-Founder & SDR</p>
           <p className="p1">
-            Being the Co-Founder of Nordic Air Group, Ersu Dalbudak has a
-            passion for aviation, sales, and entrepreneurship. With very high
-            ambitions of dedicating his life towards improving and evolving
-            humanity, Nordic Air Group is the first leap of making this dream a
-            reality. At only 17-years old, Ersu is in addition building a
-            software company, whilst maintaining top grades in school and
-            studying courses such as mathematics one year before his peers and
-            programming at double speed. Ersu is always looking for a new
-            challenge to conquer.
+            Ersu Dalbudak began his entrepreneurial journey remarkably early, successfully 
+            selling his first self-made product at just 12 years old. At Nordic Air Group, 
+            Ersu has been fueled by a lifelong passion for aircraft and aviation. His journey 
+            also includes triumph in a pitching competition, where he acquired invaluable skills. 
+            These skills and experiences are now an asset to his role at NAG, where he is 
+            determined to make a significant impact.
           </p>
           <p className="p2">
             Contact:

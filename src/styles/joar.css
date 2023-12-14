@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 70vh;
-  padding-top: 10vh;
+  padding-top: 130px;
 }
 
 .joar-wrapper {
@@ -53,7 +53,7 @@
   align-self: flex-start;
   padding-left: 2vh;
   text-align: left;
-  padding-top: 3vh;
+  padding-bottom: 10vh;
   font-size: 14.5px;
   font-style: normal;
 }
@@ -102,6 +102,10 @@
     height: 620px;
   }
 
+  .joar-card p {
+    text-align: center;
+  }
+  
   .joar-card h1 {
     font-size: 37px;
   }
