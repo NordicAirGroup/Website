@@ -3,9 +3,8 @@
   flex-direction: column;
   gap: 0.5em;
   position: absolute;
-  right: 0;
-  bottom: 0;
-  padding: 3vh;
+  right: 10px;
+  bottom: 10px;
 }
 
 .up {
@@ -69,10 +68,9 @@
 }
 
 .whatsapp {
-  /* Updated the class name from .discord to .whatsapp */
   margin-top: 0.9em;
   margin-left: 1.2em;
-  fill: #25d366; /* WhatsApp green color */
+  fill: #25d366;
 }
 
 .card1:hover {
@@ -98,7 +96,7 @@
 .card3:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #000000; /* LinkedIn blue */
+  background-color: #000000;
 }
 
 .card3:hover .twitter {
@@ -108,10 +106,9 @@
 .card4:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #cc39a4; /* WhatsApp green color */
+  background-color: #cc39a4;
 }
 
 .card4:hover .instagram {
-  /* Updated the class name from .discord to .whatsapp */
   fill: white;
 }
