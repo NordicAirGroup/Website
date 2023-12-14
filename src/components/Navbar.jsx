@@ -80,16 +80,16 @@ const Navbar = () => {
           <Link to="/our-story" onClick={() => setDropdownVisible(false)}>
             OUR STORY
           </Link>
-          <Link to="/our-story" onClick={() => setDropdownVisible(false)}>
+          <Link to="/inventory" onClick={() => setDropdownVisible(false)}>
             INVENTORY
           </Link>
-          <Link to="/our-story" onClick={() => setDropdownVisible(false)}>
+          <Link to="/services" onClick={() => setDropdownVisible(false)}>
             SERVICES
           </Link>
-          <Link to="/our-story" onClick={() => setDropdownVisible(false)}>
+          <Link to="/aviation" onClick={() => setDropdownVisible(false)}>
             AVIATION
           </Link>
-          <Link to="/our-story" onClick={() => setDropdownVisible(false)}>
+          <Link to="/referrals" onClick={() => setDropdownVisible(false)}>
             REFERRALS
           </Link>
         </div>

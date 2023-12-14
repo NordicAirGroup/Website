@@ -13,6 +13,12 @@ function App() {
         <Route path="/" element={<Hero />} />
         <Route path="about" element={<About />} />
         <Route path="privacy" element={<Privacy />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="our-story" element={<Our-Story />} />
+        <Route path="inventory" element={<Inventory />} />
+        <Route path="services" element={<Services />} />
+        <Route path="aviation" element={<Aviation />} />
+        <Route path="referrals" element={<Referrals />} />
       </Routes>
       <Footer />
     </div>
