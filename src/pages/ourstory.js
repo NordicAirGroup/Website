@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import "../styles/ourstory.css";
 
 function OurStory() {
   return (
-    <div className="OurStory-container">
+    <div className="ourstory-container">
       <Navbar />
-      <div className="OurStory-content">
+      <div className="ourstory-content">
         <p>Under construction</p>
         </div>
     </div>

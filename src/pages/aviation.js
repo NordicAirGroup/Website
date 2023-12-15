@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import "../styles/aviation.css";
 
 function Aviation() {
   return (
-    <div className="Aviation-container">
+    <div className="aviation-container">
       <Navbar />
-      <div className="Aviation-content">
+      <div className="aviation-content">
         <p>Under construction</p>
         </div>
     </div>

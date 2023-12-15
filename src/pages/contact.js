@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import "../styles/contact.css";
 
 function Contact() {
   return (
-    <div className="Contact-container">
+    <div className="contact-container">
       <Navbar />
-      <div className="Contact-content">
+      <div className="contact-content">
         <p>Under construction</p>
         </div>
     </div>

@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import "../styles/inventory.css";
 
 function Inventory() {
   return (
-    <div className="Inventory-container">
+    <div className="inventory-container">
       <Navbar />
-      <div className="Inventory-content">
+      <div className="inventory-content">
         <p>Under construction</p>
         </div>
     </div>

@@ -1,0 +1,12 @@
+.contact-container {
+    background-color: red;
+    height: 100vh;
+}
+
+.contact-content {
+    background-color: blue;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

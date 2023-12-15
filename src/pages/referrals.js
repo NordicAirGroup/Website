@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import "../styles/referrals.css";
 
 function Referrals() {
   return (
-    <div className="Referrals-container">
+    <div className="referrals-container">
       <Navbar />
-      <div className="Referrals-content">
+      <div className="referrals-content">
         <p>Under construction</p>
         </div>
     </div>
