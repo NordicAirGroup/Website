@@ -4,6 +4,12 @@ import Hero from "./pages/hero";
 import Privacy from "./pages/privacy";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Contact from "./pages/contact";
+import OurStory from "./pages/ourstory";
+import Inventory from "./pages/inventory";
+import Services from "./pages/services";
+import Aviation from "./pages/aviation";
+import Referrals from "./pages/referrals";
 
 function App() {
   return (
@@ -14,7 +20,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="privacy" element={<Privacy />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="our-story" element={<Our-Story />} />
+        <Route path="our-story" element={<OurStory />} />
         <Route path="inventory" element={<Inventory />} />
         <Route path="services" element={<Services />} />
         <Route path="aviation" element={<Aviation />} />

@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 
-function Inventory() {
+function Contact() {
   return (
-    <div className="Inventory-container">
+    <div className="Contact-container">
       <Navbar />
-      <div className="Inventory-content">
+      <div className="Contact-content">
         <p>Under construction</p>
         </div>
     </div>
   );
 }
 
-export default Inventory;
+export default Contact;
