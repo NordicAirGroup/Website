@@ -7,10 +7,10 @@ app.use(cors());
 app.use(express.json());
 
 const transporter = nodemailer.createTransport({
-  service: "YourEmailServiceProvider", // e.g., 'Gmail', 'Outlook'
+  service: "Gmail", // e.g., 'Gmail', 'Outlook'
   auth: {
-    user: "your-email@gmail.com", // Your email
-    pass: "your-password", // Your password
+    user: "oscar.lennermark@gmail.com", // Your email
+    pass: "26Wyc4m7K3", // Your password
   },
 });
 
