@@ -7,8 +7,8 @@ function OurStory() {
     <div className="ourstory-container">
       <Navbar />
       <div className="ourstory-content">
-        <p>Under construction</p>
-        </div>
+        <p>OUR STORY</p>
+      </div>
     </div>
   );
 }

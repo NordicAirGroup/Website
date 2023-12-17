@@ -1,0 +1,12 @@
+.clients-container {
+  background-color: red;
+  height: 100vh; /* increase page size */
+}
+
+.clients-content {
+  background-color: blue;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

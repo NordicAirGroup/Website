@@ -31,21 +31,21 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="left-section">
-      <button className="navbutton">
-      <Link to="/contact">
-        <span>CONTACT</span>
-      </Link>
-    </button>
-    <button className="navbutton">
-      <Link to="/ourstory">
-        <span>OUR STORY</span>
-      </Link>
-    </button>
-    <button className="navbutton">
-      <Link to="/inventory">
-        <span>INVENTORY</span>
-      </Link>
-    </button>
+        <button className="navbutton">
+          <Link to="/contact" className="navlink">
+            <span>CONTACT</span>
+          </Link>
+        </button>
+        <button className="navbutton">
+          <Link to="/ourstory" className="navlink">
+            <span>OUR STORY</span>
+          </Link>
+        </button>
+        <button className="navbutton">
+          <Link to="/clients" className="navlink">
+            <span>CLIENTS</span>
+          </Link>
+        </button>
       </div>
 
       <div className="logo-container">
@@ -56,20 +56,20 @@ const Navbar = () => {
 
       <div className="right-section">
         <button className="navbutton">
-      <Link to="/services">
-        <span>SERVICES</span>
-      </Link>
-    </button>
-    <button className="navbutton">
-      <Link to="/aviation">
-        <span>AVIATION</span>
-      </Link>
-    </button>
-    <button className="navbutton">
-      <Link to="/referrals">
-        <span>REFERRALS</span>
-      </Link>
-    </button>
+          <Link to="/services" className="navlink">
+            <span>SERVICES</span>
+          </Link>
+        </button>
+        <button className="navbutton">
+          <Link to="/aviation" className="navlink">
+            <span>AVIATION</span>
+          </Link>
+        </button>
+        <button className="navbutton">
+          <Link to="/referrals" className="navlink">
+            <span>REFERRALS</span>
+          </Link>
+        </button>
 
         <button
           className="menu-button"

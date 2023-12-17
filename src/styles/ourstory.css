@@ -1,12 +1,12 @@
 .ourstory-container {
-    background-color: red;
-    height: 100vh;
+  background-color: red;
+  height: 100vh;
 }
 
 .ourstory-content {
-    background-color: blue;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: blue;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

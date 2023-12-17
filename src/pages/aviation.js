@@ -7,8 +7,8 @@ function Aviation() {
     <div className="aviation-container">
       <Navbar />
       <div className="aviation-content">
-        <p>Under construction</p>
-        </div>
+        <p>AVIATION</p>
+      </div>
     </div>
   );
 }

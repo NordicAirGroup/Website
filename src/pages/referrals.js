@@ -7,8 +7,8 @@ function Referrals() {
     <div className="referrals-container">
       <Navbar />
       <div className="referrals-content">
-        <p>Under construction</p>
-        </div>
+        <p>REFERRALS</p>
+      </div>
     </div>
   );
 }

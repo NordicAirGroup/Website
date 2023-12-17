@@ -18,6 +18,16 @@ body {
   height: 60px;
 }
 
+.navlink {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.navlink span {
+  text-decoration: none !important;
+  color: white !important;
+}
+
 .left-section {
   display: flex;
   align-items: center;

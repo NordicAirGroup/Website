@@ -1,14 +1,18 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/contact.css";
+import ContactForm from "../components/ContactForm";
 
 function Contact() {
   return (
     <div className="contact-container">
       <Navbar />
-      <div className="contact-content">
-        <p>Under construction</p>
-        </div>
+      <div className="contact-container-form">
+        <ContactForm />
+      </div>
+      <div className="contact-container-info">
+        <p>CONTACT INFO</p>
+      </div>
     </div>
   );
 }

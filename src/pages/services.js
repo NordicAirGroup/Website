@@ -7,8 +7,8 @@ function Services() {
     <div className="services-container">
       <Navbar />
       <div className="services-content">
-        <p>Under construction</p>
-        </div>
+        <p>SERVICES</p>
+      </div>
     </div>
   );
 }

@@ -88,9 +88,6 @@
   }
 }
 
-@media screen and (max-width: 478px) {
-}
-
 @media screen and (min-width: 1900px) {
   .joar-card {
     height: 520px;
@@ -103,9 +100,9 @@
   }
 
   .joar-card p {
-    text-align: center;
+    text-align: right;
   }
-  
+
   .joar-card h1 {
     font-size: 37px;
   }
