@@ -3,6 +3,7 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const app = express();
 const cors = require("cors");
+const backendUrl = process.env.REACT_APP_BACKEND_URL || "http://localhost:3001";
 
 app.use(cors());
 app.use(express.json());
