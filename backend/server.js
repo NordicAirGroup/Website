@@ -2,15 +2,16 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const app = express();
 const cors = require("cors");
+require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
 
 const transporter = nodemailer.createTransport({
-  service: "YourEmailServiceProvider", // e.g., 'Gmail', 'Outlook'
+  service: "Gmail",
   auth: {
-    user: "your-email@gmail.com", // Your email
-    pass: "your-password", // Your password
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
   },
 });
 
