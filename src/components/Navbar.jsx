@@ -31,15 +31,21 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="left-section">
-        <button className="navbutton">
-          <span>CONTACT</span>
-        </button>
-        <button className="navbutton">
-          <span>OUR STORY</span>
-        </button>
-        <button className="navbutton">
-          <span>INVENTORY</span>
-        </button>
+      <button className="navbutton">
+      <Link to="/contact">
+        <span>CONTACT</span>
+      </Link>
+    </button>
+    <button className="navbutton">
+      <Link to="/ourstory">
+        <span>OUR STORY</span>
+      </Link>
+    </button>
+    <button className="navbutton">
+      <Link to="/inventory">
+        <span>INVENTORY</span>
+      </Link>
+    </button>
       </div>
 
       <div className="logo-container">
@@ -50,14 +56,20 @@ const Navbar = () => {
 
       <div className="right-section">
         <button className="navbutton">
-          <span>SERVICES</span>
-        </button>
-        <button className="navbutton">
-          <span>AVIATION </span>
-        </button>
-        <button className="navbutton">
-          <span>REFERRALS</span>
-        </button>
+      <Link to="/services">
+        <span>SERVICES</span>
+      </Link>
+    </button>
+    <button className="navbutton">
+      <Link to="/aviation">
+        <span>AVIATION</span>
+      </Link>
+    </button>
+    <button className="navbutton">
+      <Link to="/referrals">
+        <span>REFERRALS</span>
+      </Link>
+    </button>
 
         <button
           className="menu-button"
