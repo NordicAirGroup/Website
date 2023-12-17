@@ -18,11 +18,29 @@ function ContactForm() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    // For example, send data to a backend server or an email service
-    console.log(formData);
+    try {
+      const response = await fetch("/send", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        const result = await response.text(); // or .json() if your server sends back JSON
+        console.log(result);
+        alert("Message sent!");
+      } else {
+        console.error("Failed to send message");
+        alert("Failed to send message");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("An error occurred while sending the message");
+    }
   };
 
   return (
