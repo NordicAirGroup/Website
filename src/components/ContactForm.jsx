@@ -30,12 +30,13 @@ function ContactForm() {
       });
 
       if (response.ok) {
-        const result = await response.text(); // or .json() if your server sends back JSON
+        const result = await response.json(); // Assuming the server sends back JSON
         console.log(result);
         alert("Message sent!");
       } else {
-        console.error("Failed to send message");
-        alert("Failed to send message");
+        const result = await response.json(); // Here you get the JSON response when it's not OK
+        console.error("Failed to send message:", result);
+        alert("Failed to send message: " + result.message);
       }
     } catch (error) {
       console.error("Error:", error);
