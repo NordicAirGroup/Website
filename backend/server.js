@@ -18,21 +18,8 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const lastSubmissions = {};
-
 app.post("/send", (req, res) => {
   const { name, email, message } = req.body;
-  const userIp = req.ip;
-  const currentTime = Date.now();
-
-  // Check if user has sent a message in the last 24 hours
-  if (lastSubmissions[userIp] && currentTime - lastSubmissions[userIp] < 24 * 60 * 60 * 1000) {
-    return res.status(429).json({ message: "You can only send 2 messages every 24 hours." });
-  }
-
-  // Update last submission time
-  lastSubmissions[userIp] = currentTime;
-
   const mailOptions = {
     from: "info@nordicairgroup.com",
     to: "info@nordicairgroup.com, joar@nordicairgroup.com, ersu@nordicairgroup.com",
