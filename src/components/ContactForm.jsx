@@ -21,7 +21,7 @@ function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("/send", {
+      const response = await fetch("https://still-river-91998-c2c541cfc191.herokuapp.com/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
