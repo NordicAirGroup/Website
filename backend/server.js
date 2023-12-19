@@ -21,25 +21,24 @@ const messageQuota = {}; // Object to keep track of user message counts and time
 
 app.post("/send", (req, res) => {
   const { name, email, message } = req.body;
+  const ip = req.ip; // Get the IP address of the client
 
   const currentTime = new Date().getTime();
   const dayInMillis = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
-  if (!messageQuota[email]) {
-    messageQuota[email] = { count: 1, timestamp: currentTime };
+  if (!messageQuota[ip]) {
+    messageQuota[ip] = { count: 1, timestamp: currentTime };
   } else {
-    if (currentTime - messageQuota[email].timestamp < dayInMillis) {
-      if (messageQuota[email].count >= 2) {
-        return res
-          .status(429)
-          .json({
-            status: "error",
-            message: "Message quota exceeded. Please wait 24 hours.",
-          });
+    if (currentTime - messageQuota[ip].timestamp < dayInMillis) {
+      if (messageQuota[ip].count >= 2) {
+        return res.status(429).json({
+          status: "error",
+          message: "Message quota exceeded. Please wait 24 hours.",
+        });
       }
-      messageQuota[email].count++;
+      messageQuota[ip].count++;
     } else {
-      messageQuota[email] = { count: 1, timestamp: currentTime };
+      messageQuota[ip] = { count: 1, timestamp: currentTime };
     }
   }
 
