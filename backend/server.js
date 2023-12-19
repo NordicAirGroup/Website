@@ -33,7 +33,7 @@ app.post("/send", (req, res) => {
       if (messageQuota[ip].count >= 2) {
         return res.status(429).json({
           status: "error",
-          message: "Message quota exceeded. Please wait 24 hours.",
+          message: "Message quota exceeded.",
         });
       }
       messageQuota[ip].count++;

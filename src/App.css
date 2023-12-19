@@ -54,7 +54,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 2.3vw;
+  font-size: 38px;
   font-family: inherit !important;
   text-align: center;
   width: 70vw;
@@ -140,25 +140,13 @@ html {
   transform: translateX(-50%);
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1170px) {
   .hero-title {
-    font-size: 4vw;
+    font-size: 26px;
   }
 
   .box {
     width: 100px;
     margin: 0 2px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .hero-title {
-    font-size: 6.4vw;
-  }
-}
-
-@media screen and (min-width: 3000px) {
-  .hero-title {
-    font-size: 1.25vw;
   }
 }
