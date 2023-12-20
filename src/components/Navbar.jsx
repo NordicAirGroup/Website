@@ -89,11 +89,11 @@ const Navbar = () => {
           <Link to="/contact" onClick={() => setDropdownVisible(false)}>
             CONTACT
           </Link>
-          <Link to="/our-story" onClick={() => setDropdownVisible(false)}>
+          <Link to="/ourstory" onClick={() => setDropdownVisible(false)}>
             OUR STORY
           </Link>
-          <Link to="/inventory" onClick={() => setDropdownVisible(false)}>
-            INVENTORY
+          <Link to="/clients" onClick={() => setDropdownVisible(false)}>
+            CLIENTS
           </Link>
           <Link to="/services" onClick={() => setDropdownVisible(false)}>
             SERVICES
