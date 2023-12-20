@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "../styles/contact.css";
 import ContactForm from "../components/ContactForm";
+import ContactInfo from "../components/ContactInfo";
 
 function Contact() {
   return (
@@ -10,7 +11,7 @@ function Contact() {
         <ContactForm />
       </div>
       <div className="contact-container-info">
-        <p>CONTACT INFO</p>
+        <ContactInfo />
       </div>
     </div>
   );
