@@ -5,7 +5,6 @@ import "../styles/ourstory.css";
 function OurStory() {
   return (
     <div className="ourstory-container">
-      <Navbar />
       <div className="ourstory-content">
         <p>OUR STORY</p>
       </div>

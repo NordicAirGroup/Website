@@ -5,7 +5,6 @@ import "../styles/referrals.css";
 function Referrals() {
   return (
     <div className="referrals-container">
-      <Navbar />
       <div className="referrals-content">
         <p>REFERRALS</p>
       </div>

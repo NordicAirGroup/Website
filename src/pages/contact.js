@@ -6,7 +6,6 @@ import ContactForm from "../components/ContactForm";
 function Contact() {
   return (
     <div className="contact-container">
-      <Navbar />
       <div className="contact-container-form">
         <ContactForm />
       </div>

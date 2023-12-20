@@ -5,7 +5,6 @@ import "../styles/aviation.css";
 function Aviation() {
   return (
     <div className="aviation-container">
-      <Navbar />
       <div className="aviation-content">
         <p>AVIATION</p>
       </div>

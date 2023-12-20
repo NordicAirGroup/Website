@@ -5,7 +5,6 @@ import style from "../styles/Privacy.css";
 function About() {
   return (
     <div className="privacy-container">
-      <Navbar />
       <div className="privacy-content">
         <h1>Privacy Policy</h1>
         <h2>Effective Date: November 24 2023</h2>

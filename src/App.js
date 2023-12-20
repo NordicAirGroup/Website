@@ -10,6 +10,7 @@ import Clients from "./pages/clients";
 import Services from "./pages/services";
 import Aviation from "./pages/aviation";
 import Referrals from "./pages/referrals";
+import "./styles/Navbar.css";
 
 function App() {
   return (

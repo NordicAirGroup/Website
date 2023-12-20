@@ -5,7 +5,6 @@ import "../styles/services.css";
 function Services() {
   return (
     <div className="services-container">
-      <Navbar />
       <div className="services-content">
         <p>SERVICES</p>
       </div>
