@@ -8,20 +8,18 @@ function ContactInfo() {
         <img className="jcontact-img" src={JoarImage} alt="Joar" />
         <div className="jcontact-card">
           <div className="heading-and-subhead">
-          <p>Co-Founder & CEO</p>
-          <h1>Joar Lennermark</h1>
+            <p>Co-Founder & CEO</p>
+            <h1>Joar Lennermark</h1>
           </div>
-        <p className="p2contact">
-            Contact:
+          <div>
+            <p className="p1">Phone: (46) 72-531 26 56</p>
             <br />
-            Phone: (46) 72-531 26 56
-            <br />
-            Email: Joar@nordicairgroup.com
-          </p>
+            <p className="p">Email: Joar@nordicairgroup.com</p>
+          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default ContactInfo;

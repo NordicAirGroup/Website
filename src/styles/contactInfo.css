@@ -1,105 +1,54 @@
 .contactInfo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 1vh;
-    padding-top: 130px;
-  }
-  
-  .jcontact-wrapper {
-    display: flex;
-    align-items: center;
-  }
-  
-  .jcontact-img {
-    width: 8.75vw;
-    height: 8.75vw;
-    border-radius: 50%;
-    margin-right: -2vh;
-    z-index: 1;
-  }
-  
-  .jcontact-card {
-    position: relative;
-    display: flex;
-    flex-direction: row; /* Change to row */
-    align-items: center; /* Align items in the center */
-    justify-content: start; /* Align content to start */
-    width: 35vw;
-    height: calc(900px - 50vw);
-    background-color: #fff;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .jcontact-card h1 {
-    font-size: 23px;
-    padding-left: 4vh;
-    padding-top: 0vh;
-    padding-bottom: 0vh;
-  }
-  
-  .jcontact-card p {
-    padding-left: 4vh;
-    font-style: italic;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 1vh;
+  padding-top: 130px;
+}
 
-  .heading-and-subheading {
-    flex-direction: row;
-  }
-  
-  .p2contact {
-    padding-left: 70px !important;
-    font-style: normal;
-  }
+.jcontact-wrapper {
+  display: flex;
+  align-items: center;
+}
 
-  @media screen and (max-width: 1042px) {
-    .jcontact-wrapper {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .jcontact-container {
-      min-height: 100vh;
-    }
-  
-    .jcontact-card h1 {
-      font-size: 25px;
-    }
-  
-    .jcontact-img {
-      order: 1;
-      width: 60vw;
-      height: auto;
-      margin-bottom: -30px;
-      margin-right: 0;
-      z-index: 1;
-    }
-  
-    .jcontact-card {
-      order: 2;
-      width: 90vw;
-      height: calc(750px - 20vw);
-    }
-  }
-  
-  @media screen and (min-width: 1900px) {
-    .jcontact-card {
-      height: 520px;
-      width: 800px;
-    }
-  
-    .jcontact-img {
-      width: 620px;
-      height: 620px;
-    }
-  
-    .jcontact-card p {
-      text-align: right;
-    }
-  
-    .jcontact-card h1 {
-      font-size: 37px;
-    }
-  }
-  
+.jcontact-img {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  margin-right: -2vh;
+  z-index: 1;
+}
+
+.jcontact-card {
+  position: relative;
+  display: flex;
+  flex-direction: row; /* Change to row */
+  align-items: center; /* Align items in the center */
+  justify-content: start; /* Align content to start */
+  width: 540px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jcontact-card h1 {
+  font-size: 23px;
+  padding-left: 28px;
+  padding-top: 0vh;
+  padding-bottom: 0vh;
+}
+
+.jcontact-card p {
+  padding-left: 30px;
+  font-style: italic;
+}
+
+.heading-and-subheading {
+  flex-direction: row;
+}
+
+.p2contact {
+  padding-left: 70px !important;
+  font-style: normal;
+}
