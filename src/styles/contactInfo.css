@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 10vh;
+    min-height: 1vh;
     padding-top: 130px;
   }
   
@@ -12,52 +12,43 @@
   }
   
   .jcontact-img {
-    width: 32vw;
-    height: 32vw;
+    width: 8.75vw;
+    height: 8.75vw;
     border-radius: 50%;
-    margin-right: 5vh;
+    margin-right: -2vh;
+    z-index: 1;
   }
   
   .jcontact-card {
     position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 10vw;
-    height: calc(900px - 20vw);
+    flex-direction: row; /* Change to row */
+    align-items: center; /* Align items in the center */
+    justify-content: start; /* Align content to start */
+    width: 35vw;
+    height: calc(900px - 50vw);
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .jcontact-card h1 {
-    font-size: 2vw;
+    font-size: 23px;
     padding-right: 3vh;
-    padding-top: 3vh;
+    padding-top: 0vh;
     padding-bottom: 0vh;
   }
   
   .jcontact-card p {
-    align-self: flex-end;
     padding-right: 3vh;
     font-style: italic;
-    text-align: right;
   }
   
-  .jcontact-card .p1 {
+  .p2contact {
     padding-left: 5vh;
     font-style: normal;
   }
-  
-  .jcontact-card .p2 {
-    align-self: flex-start;
-    padding-left: 2vh;
-    text-align: left;
-    padding-bottom: 10vh;
-    font-size: 14.5px;
-    font-style: normal;
-  }
-  
+
   @media screen and (max-width: 1042px) {
     .jcontact-wrapper {
       flex-direction: column;

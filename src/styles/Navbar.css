@@ -124,6 +124,7 @@ body {
   transition: opacity 0.3s ease, transform 0.3s ease;
   transform: translateY(-20px);
   opacity: 0;
+  text-align: center;
 }
 
 .dropdown-menu.show {

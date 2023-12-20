@@ -7,15 +7,15 @@ function ContactInfo() {
       <div className="jcontact-wrapper">
         <img className="jcontact-img" src={JoarImage} alt="Joar" />
         <div className="jcontact-card">
-          <h1>Joar Lennermark</h1>
-          <p>Co-Founder & CEO</p>
-          <p className="p2contact">
+        <p className="p2contact">
             Contact:
             <br />
             Phone: (46) 72-531 26 56
             <br />
             Email: Joar@nordicairgroup.com
           </p>
+          <h1>Joar Lennermark</h1>
+          <p>Co-Founder & CEO</p>
         </div>
       </div>
     </div>
