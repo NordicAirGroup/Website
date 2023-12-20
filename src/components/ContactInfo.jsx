@@ -7,6 +7,10 @@ function ContactInfo() {
       <div className="jcontact-wrapper">
         <img className="jcontact-img" src={JoarImage} alt="Joar" />
         <div className="jcontact-card">
+          <div className="heading-and-subhead">
+          <p>Co-Founder & CEO</p>
+          <h1>Joar Lennermark</h1>
+          </div>
         <p className="p2contact">
             Contact:
             <br />
@@ -14,8 +18,6 @@ function ContactInfo() {
             <br />
             Email: Joar@nordicairgroup.com
           </p>
-          <h1>Joar Lennermark</h1>
-          <p>Co-Founder & CEO</p>
         </div>
       </div>
     </div>

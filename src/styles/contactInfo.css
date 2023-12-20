@@ -34,18 +34,22 @@
   
   .jcontact-card h1 {
     font-size: 23px;
-    padding-right: 3vh;
+    padding-left: 4vh;
     padding-top: 0vh;
     padding-bottom: 0vh;
   }
   
   .jcontact-card p {
-    padding-right: 3vh;
+    padding-left: 4vh;
     font-style: italic;
+  }
+
+  .heading-and-subheading {
+    flex-direction: row;
   }
   
   .p2contact {
-    padding-left: 5vh;
+    padding-left: 70px !important;
     font-style: normal;
   }
 
