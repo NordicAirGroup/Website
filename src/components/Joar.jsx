@@ -25,7 +25,7 @@ const Joar = () => {
           <p className="p2">
             Contact:
             <br />
-            Phone: (46) 72-531 26 56
+            Phone: +46 72-531 26 56
             <br />
             Email: Joar@nordicairgroup.com
           </p>

@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col">
             <h3>Nordic Air Group</h3>
             <p>P.O. Box: Essingestråket 25, Stockholm</p>
-            <p>Phone: (46) 72-531 26 56</p>
+            <p>Phone: +46 72-531 26 56</p>
             <p>Email: Info@nordicairgroup.com</p>
           </div>
 
