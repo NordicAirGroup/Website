@@ -102,7 +102,7 @@
   .joar-card {
     order: 2;
     width: 90vw;
-    height: calc(800px - 20vw);
+    height: calc(750px - 20vw);
   }
 }
 
