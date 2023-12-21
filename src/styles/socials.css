@@ -122,3 +122,40 @@
 .card4:hover .instagram {
   fill: white;
 }
+
+@media screen and (max-width: 385px) {
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 60px;
+    height: 60px;
+    outline: none;
+    border: none;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .twitter {
+    margin-top: 0.46em;
+    margin-left: 1.6em;
+    fill: #000000;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    position: absolute;
+    right: 10px;
+    bottom: -14px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .main {
+    display: none !important;
+  }
+}

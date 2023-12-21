@@ -22,7 +22,7 @@ const Joar = () => {
             programming at double speed. Joar is always looking for a new
             challenge to conquer.
           </p>
-          <p className="p2j">
+          <p className="p2j-contact">
             Contact:
             <br />
             +46 72-531 26 56

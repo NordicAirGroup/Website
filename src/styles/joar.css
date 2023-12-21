@@ -50,7 +50,7 @@
   text-align: right;
 }
 
-.joar-card .p2j {
+.joar-card .p2j-contact {
   align-self: flex-start;
   padding-left: 52px;
   text-align: left;
@@ -60,6 +60,64 @@
 }
 
 @media screen and (max-width: 1170px) {
+  .joar-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .joar-card .p2j-contact {
+    align-self: flex-start;
+    padding-left: 15px;
+    text-align: left;
+    bottom: 5px;
+    font-size: 14.5px;
+    font-style: normal;
+    position: absolute;
+  }
+
+  .joar-container {
+    min-height: 100vh;
+  }
+
+  .joar-card h1 {
+    font-size: 25px;
+  }
+
+  .joar-img {
+    order: 1;
+    width: 60vw;
+    height: auto;
+    margin-bottom: -20px;
+    margin-right: 0;
+    z-index: 1;
+  }
+
+  .joar-card .p1j {
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-style: normal;
+    text-align: right;
+  }
+
+  .joar-card {
+    order: 2;
+    width: 90vw;
+    height: calc(800px - 20vw);
+  }
+}
+
+@media screen and (max-width: 1470px) {
+  .joar-img {
+    width: 330px;
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .joar-card {
+    font-size: 4.7vw;
+  }
+
   .joar-wrapper {
     flex-direction: column;
     align-items: center;
@@ -92,13 +150,15 @@
   .joar-card {
     order: 2;
     width: 90vw;
-    height: calc(750px - 20vw);
+    height: calc(800px - 20vw);
   }
-}
 
-@media screen and (max-width: 1470px) {
-  .joar-img {
-    width: 330px;
-    height: 330px;
+  .p2j-contact {
+    align-self: flex-start;
+    padding-left: 10px;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 12px;
+    font-style: normal;
   }
 }
