@@ -139,9 +139,20 @@
   }
 
   .twitter {
-    margin-top: 0.46em;
+    margin-top: 0.7em;
     margin-left: 1.6em;
     fill: #000000;
+  }
+
+  .whatsapp {
+    margin-top: 0.8em;
+    margin-left: 1em;
+    fill: #25d366;
+  }
+
+  .instagram {
+    margin-top: -0.8em;
+    margin-left: -1.2em;
   }
 
   .main {

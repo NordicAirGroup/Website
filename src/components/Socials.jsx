@@ -13,8 +13,8 @@ const Socials = () => {
           <button className="card1">
             <svg
               viewBox="0 0 32 32"
-              width="40px"
-              height="40px"
+              width="38px"
+              height="38px"
               fillRule="nonzero"
               className="whatsapp"
             >
