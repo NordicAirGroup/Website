@@ -4,7 +4,16 @@
   gap: 0.5em;
   position: absolute;
   right: 10px;
-  bottom: 10px;
+  bottom: -6px;
+}
+
+.main-ersu-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  position: absolute;
+  left: 10px;
+  bottom: -6px;
 }
 
 .up {
@@ -23,8 +32,8 @@
 .card2,
 .card3,
 .card4 {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   outline: none;
   border: none;
   background: white;
@@ -41,6 +50,7 @@
   margin-top: -1.5em;
   margin-left: -1.2em;
   fill: #cc39a4;
+  z-index: 1;
 }
 
 .card2 {
@@ -48,8 +58,8 @@
 }
 
 .twitter {
-  margin-top: 1.6em;
-  margin-left: 2.5em;
+  margin-top: 1.26em;
+  margin-left: 2.2em;
   fill: #000000;
 }
 

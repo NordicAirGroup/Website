@@ -12,10 +12,10 @@
 }
 
 .joar-img {
-  width: 32vw;
-  height: 32vw;
+  width: 620px;
+  height: 620px;
   border-radius: 50%;
-  margin-right: 5vh;
+  margin-right: 2vw;
 }
 
 .joar-card {
@@ -23,42 +23,43 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 42vw;
-  height: calc(900px - 20vw);
+  height: 520px;
+  width: 800px;
   background-color: #fff;
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .joar-card h1 {
-  font-size: 2vw;
-  padding-right: 3vh;
-  padding-top: 3vh;
+  font-size: 37px;
+  padding-right: 30px;
+  padding-top: 5px;
   padding-bottom: 0vh;
 }
 
-.joar-card p {
+.pj {
   align-self: flex-end;
-  padding-right: 3vh;
+  padding-right: 35px;
   font-style: italic;
+}
+
+.joar-card .p1j {
+  padding-left: 35px;
+  padding-right: 35px;
+  font-style: normal;
   text-align: right;
 }
 
-.joar-card .p1 {
-  padding-left: 5vh;
-  font-style: normal;
-}
-
-.joar-card .p2 {
+.joar-card .p2j {
   align-self: flex-start;
-  padding-left: 2vh;
+  padding-left: 52px;
   text-align: left;
-  padding-bottom: 10vh;
+  margin-top: 65px;
   font-size: 14.5px;
   font-style: normal;
 }
 
-@media screen and (max-width: 1042px) {
+@media screen and (max-width: 1170px) {
   .joar-wrapper {
     flex-direction: column;
     align-items: center;
@@ -81,6 +82,12 @@
     z-index: 1;
   }
 
+  .joar-card .p1j {
+    padding-left: 20px;
+    font-style: normal;
+    text-align: right;
+  }
+
   .joar-card {
     order: 2;
     width: 90vw;
@@ -88,22 +95,9 @@
   }
 }
 
-@media screen and (min-width: 1900px) {
-  .joar-card {
-    height: 520px;
-    width: 800px;
-  }
-
+@media screen and (max-width: 1470px) {
   .joar-img {
-    width: 620px;
-    height: 620px;
-  }
-
-  .joar-card p {
-    text-align: right;
-  }
-
-  .joar-card h1 {
-    font-size: 37px;
+    width: 330px;
+    height: 330px;
   }
 }

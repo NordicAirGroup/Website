@@ -3,7 +3,7 @@ import "../styles/socials.css";
 
 const Socials = () => {
   return (
-    <div className="main">
+    <div className="main-ersu-socials">
       <div className="up">
         <a
           href="https://www.whatsapp.com"

@@ -9,17 +9,14 @@ function ContactInfo() {
 
   const copyToClipboard = (text, message) => {
     navigator.clipboard.writeText(text).then(() => {
-      // Create a new notification object with a unique id
       const newNotification = {
-        id: Math.random(), // Simple unique id, you might want to use a better generator
+        id: Math.random(),
         message: message,
         open: true,
       };
 
-      // Add the new notification to the state and remove the oldest if there are more than 3
       setNotifications((prev) => [...prev.slice(-2), newNotification]);
 
-      // Set a timer to remove the notification after 3 seconds
       setTimeout(() => {
         setNotifications((prev) =>
           prev.map((notif) =>

@@ -10,8 +10,8 @@ const Joar = () => {
         <img className="joar-img" src={JoarImage} alt="Joar" />
         <div className="joar-card">
           <h1>Joar Lennermark</h1>
-          <p>Co-Founder & CEO</p>
-          <p className="p1">
+          <p className="pj">Co-Founder & CEO</p>
+          <p className="p1j">
             Being the Co-Founder of Nordic Air Group, Joar Lennermark has a
             passion for aviation, sales and entrepreneurship. With very high
             ambitions of dedicating his life towards improving and evolving
@@ -22,15 +22,14 @@ const Joar = () => {
             programming at double speed. Joar is always looking for a new
             challenge to conquer.
           </p>
-          <p className="p2">
+          <p className="p2j">
             Contact:
             <br />
-            Phone: +46 72-531 26 56
+            +46 72-531 26 56
             <br />
-            Email: Joar@nordicairgroup.com
+            Joar@nordicairgroup.com
           </p>
           <Socials className="Joar-Socials" />
-          <div className="ghost-element-for-socials"></div>
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@ export default function TransitionAlerts({ message, open, setOpen }) {
           }
           sx={{ mb: 2 }}
         >
-          Successfully Copied
+          Copied to Clipboard
         </Alert>
       </Collapse>
     </Box>
