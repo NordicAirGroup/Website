@@ -3,7 +3,9 @@
   justify-content: center;
   align-items: center;
   min-height: 1vh;
-  padding-top: 130px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  /* background-color: green; */
 }
 
 .jcontact-wrapper {
@@ -39,6 +41,10 @@
   padding-bottom: 0vh;
 }
 
+.h1e {
+  padding-right: 26.5px;
+}
+
 .p0 {
   padding-left: 40px;
   font-style: italic;
@@ -49,7 +55,7 @@
 }
 
 .p1 {
-  margin-left: 65px !important;
+  margin-left: 65px;
   font-style: normal !important;
   margin-bottom: 0px;
   cursor: pointer;
@@ -73,4 +79,72 @@
   right: 10px;
   z-index: 1000;
   font-family: Arial, Helvetica, sans-serif !important;
+}
+
+@media screen and (max-width: 1300px) {
+  .contactInfo {
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .contactInfo {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .p0 {
+    padding-left: 0px;
+  }
+
+  .p1 {
+    padding-left: 0px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .jcontact-wrapper {
+    flex-direction: column;
+  }
+
+  .jcontact-img {
+    margin-right: 0px;
+    margin-bottom: -10px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .jcontact-card {
+    flex-direction: column;
+    width: 90vw;
+    height: 200px;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .h1e {
+    padding-right: 0px;
+  }
+
+  .jcontact-card h1 {
+    padding-left: 0px;
+  }
+
+  .p0 {
+    padding-left: 0px;
+  }
+
+  .p1 {
+    margin-left: 0px !important;
+  }
+
+  .p2 {
+    margin-left: 0px !important;
+  }
+
+  .jcontact-wrapper {
+    align-items: center;
+  }
 }

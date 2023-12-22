@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import "../styles/contact.css";
 import ContactForm from "../components/ContactForm";
 import ContactInfo from "../components/ContactInfo";
+import ContactInfoErsu from "../components/ContactInfoErsu";
 
 function Contact() {
   return (
@@ -12,6 +13,7 @@ function Contact() {
       </div>
       <div className="contact-container-info">
         <ContactInfo />
+        <ContactInfoErsu />
       </div>
     </div>
   );
