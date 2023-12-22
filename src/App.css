@@ -54,9 +54,9 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 30px;
+  font-size: 26px;
   font-family: "Roboto", sans-serif !important;
-  font-weight: 500 !important;
+  font-weight: 1000 !important;
   letter-spacing: 5px;
   text-align: center;
   width: 70vw;
