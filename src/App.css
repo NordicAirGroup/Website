@@ -4,7 +4,7 @@ html {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #2a2a2a;
 }
 
@@ -54,8 +54,10 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 38px;
-  font-family: inherit !important;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500 !important;
+  letter-spacing: 5px;
   text-align: center;
   width: 70vw;
 }
@@ -78,7 +80,9 @@ html {
   margin: 0 5px;
   background: transparent;
   text-transform: uppercase;
-  font-weight: 900;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px;
 }
 
 .box:before {
@@ -142,7 +146,10 @@ html {
 
 @media screen and (max-width: 1170px) {
   .hero-title {
-    font-size: 26px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 1000 !important;
+    letter-spacing: 3px;
   }
 
   .box {

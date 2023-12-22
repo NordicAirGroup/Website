@@ -148,3 +148,53 @@
     align-items: center;
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .jcontact-img {
+    width: 160px; /* Example increase */
+    height: 160px; /* Example increase */
+  }
+
+  .jcontact-card {
+    width: 650px; /* Example increase */
+    height: 150px; /* Example increase */
+  }
+
+  .jcontact-card h1 {
+    font-size: 28px; /* Example increase */
+  }
+
+  .p0,
+  .p1,
+  .p2 {
+    font-size: 18px; /* Example increase */
+    padding-left: 50px; /* Example increase */
+  }
+
+  /* Additional styling adjustments as needed */
+}
+
+@media screen and (min-width: 2560px) {
+  .jcontact-img {
+    width: 200px; /* Increased size */
+    height: 200px; /* Increased size */
+  }
+
+  .jcontact-card {
+    width: 800px; /* Increased size */
+    height: 180px; /* Increased size */
+  }
+
+  .jcontact-card h1 {
+    font-size: 32px; /* Increased size */
+  }
+
+  .p0,
+  .p1,
+  .p2 {
+    font-size: 20px; /* Increased size */
+    padding-left: 60px; /* Increased size */
+  }
+
+  /* Additional styling adjustments as needed */
+}
