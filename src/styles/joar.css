@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 70vh;
-  padding-top: 130px;
+  padding-top: 60px;
 }
 
 .joar-wrapper {
@@ -16,6 +16,7 @@
   height: 620px;
   border-radius: 50%;
   margin-right: 2vw;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.082);
 }
 
 .joar-card {
@@ -27,7 +28,7 @@
   width: 800px;
   background-color: #fff;
   border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 10px 8px rgba(0, 0, 0, 0.144);
 }
 
 .joar-card h1 {
@@ -110,6 +111,10 @@
   .joar-img {
     width: 330px;
     height: 330px;
+  }
+
+  .joar-container {
+    margin-bottom: 60px;
   }
 }
 
