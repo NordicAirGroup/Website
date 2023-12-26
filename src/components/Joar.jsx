@@ -6,6 +6,8 @@ import JoarImage from "../assets/Joar-photo.png";
 const Joar = () => {
   return (
     <div className="joar-container">
+      <h1 className="h1abt">ABOUT US</h1>
+      <div className="line1"></div>
       <div className="joar-wrapper">
         <img className="joar-img" src={JoarImage} alt="Joar" />
         <div className="joar-card">

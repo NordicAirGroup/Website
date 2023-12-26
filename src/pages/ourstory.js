@@ -15,7 +15,7 @@ function OurStory() {
         </div>
         <div className="ourstory-card-container">
           <div className="ourstory-card">
-            <h1>Nordic Air Group - Our Story</h1>
+            <h1>Our Story</h1>
             <p>
               It all started on a brisk autumn day. Joar and Ersu had just
               finished their first lecture, during which Ersu shared his deep
