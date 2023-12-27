@@ -17,7 +17,7 @@ function OurStory() {
           <div className="ourstory-card">
             <h1>Our Story</h1>
             <p>
-              It all started on a brisk autumn day. Joar and Ersu had just
+              On a brisk autumn day Joar and Ersu had just
               finished their first lecture, during which Ersu shared his deep
               passion for aviation and his aspirations to become a pilot or
               aviation broker. Joar, recently landing a role in appointment
