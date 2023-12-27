@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 0vh;
   padding-bottom: 10vh;
-  padding-top: 0px;
+  padding-top: 60px;
 }
 
 .ersu-wrapper {
@@ -57,7 +57,7 @@
   color: white;
 }
 
-.ersu-card .p2e {
+.ersu-card .p2e-contact {
   align-self: flex-end;
   padding-right: 52px;
   text-align: right;
@@ -68,13 +68,23 @@
 }
 
 @media screen and (max-width: 1170px) {
+  .ersu-card .p2e-contact {
+    align-self: flex-start;
+    padding-right: 15px;
+    text-align: right;
+    bottom: 5px;
+    right: 0px;
+    font-size: 14.5px;
+    font-style: normal;
+    position: absolute;
+  }
+
   .ersu-wrapper {
     flex-direction: column;
     align-items: center;
   }
 
   .ersu-container {
-    min-height: 100vh;
     padding-top: 50px;
   }
 
@@ -82,10 +92,14 @@
     font-size: 25px;
   }
 
+  .ersu-card .p1e {
+    padding-bottom: 5px;
+    font-style: normal;
+    text-align: center;
+  }
+
   .ersu-img {
     order: 1;
-    width: 60vw;
-    height: auto;
     margin-bottom: -30px;
     margin-left: 0;
     z-index: 1;
@@ -94,7 +108,8 @@
   .ersu-card {
     order: 2;
     width: 90vw;
-    height: calc(750px - 20vw);
+    height: auto;
+    padding-bottom: 170px;
   }
 }
 
@@ -102,5 +117,22 @@
   .ersu-img {
     width: 330px;
     height: 330px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .ersu-card {
+    padding-bottom: 130px;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .ersu-card {
+    height: auto;
+  }
+
+  .ersu-img {
+    width: 260px;
+    height: 260px;
   }
 }

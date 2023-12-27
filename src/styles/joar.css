@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.h1abt{
+.h1abt {
   font-size: 50px;
   color: #ffffff;
   letter-spacing: 6px;
@@ -114,16 +114,16 @@
   }
 
   .joar-card .p1j {
-    padding-left: 5px;
     padding-bottom: 5px;
     font-style: normal;
-    text-align: right;
+    text-align: center;
   }
 
   .joar-card {
     order: 2;
     width: 90vw;
-    height: calc(750px - 20vw);
+    height: auto;
+    padding-bottom: 170px;
   }
 }
 
@@ -132,58 +132,21 @@
     width: 330px;
     height: 330px;
   }
+}
 
-  .joar-container {
-    margin-bottom: 60px;
+@media screen and (max-width: 385px) {
+  .joar-card {
+    padding-bottom: 130px;
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 356px) {
   .joar-card {
-    font-size: 4.7vw;
-  }
-
-  .joar-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .joar-container {
-    min-height: 100vh;
-  }
-
-  .joar-card h1 {
-    font-size: 25px;
+    height: auto;
   }
 
   .joar-img {
-    order: 1;
-    width: 60vw;
-    height: auto;
-    margin-bottom: -20px;
-    margin-right: 0;
-    z-index: 1;
-  }
-
-  .joar-card .p1j {
-    padding-left: 5px;
-    padding-bottom: 5px;
-    font-style: normal;
-    text-align: right;
-  }
-
-  .joar-card {
-    order: 2;
-    width: 90vw;
-    height: calc(800px - 20vw);
-  }
-
-  .p2j-contact {
-    align-self: flex-start;
-    padding-left: 10px;
-    text-align: left;
-    margin-top: 0px;
-    font-size: 12px;
-    font-style: normal;
+    width: 260px;
+    height: 260px;
   }
 }

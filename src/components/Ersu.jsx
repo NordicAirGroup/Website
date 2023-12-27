@@ -22,7 +22,7 @@ const Ersu = () => {
             his role at NAG, where he is determined to make a significant
             impact.
           </p>
-          <p className="p2e">
+          <p className="p2e-contact">
             Contact:
             <br />
             +46 70-723 84 95

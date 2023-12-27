@@ -132,7 +132,7 @@
     height: 60px;
     outline: none;
     border: none;
-    background: white;
+    background: rgb(39, 39, 49);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: 0.2s ease-in-out;
@@ -161,12 +161,16 @@
     gap: 0.5em;
     position: absolute;
     right: 10px;
-    bottom: -14px;
+    bottom: -6px;
   }
 }
 
 @media screen and (max-width: 352px) {
   .main {
     display: none !important;
+  }
+
+  .main-ersu-socials {
+    display: none;
   }
 }
