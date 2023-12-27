@@ -1,9 +1,9 @@
-.referrals-container {
+.Testamonials-container {
   background-color: red;
   height: 100vh; /* increase page size */
 }
 
-.referrals-content {
+.Testamonials-content {
   background-color: blue;
   height: 50vh;
   display: flex;

@@ -58,40 +58,34 @@ li {
   margin-bottom: 10px;
 }
 
-/* Existing CSS for footer.css */
-
-/* ... Your existing CSS rules ... */
-
-/* Media queries for mobile devices */
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 10px 0; /* Less padding */
+    padding: 10px 0;
   }
 
   .footer-container {
-    padding: 0 10px; /* Adjust padding for mobile */
+    padding: 0 10px;
   }
 
   .row {
-    flex-direction: column; /* Stack elements vertically on small screens */
-    align-items: center; /* Center-align items */
+    flex-direction: column;
+    align-items: center;
   }
 
   .col {
-    min-width: auto; /* Auto width for flexible layout */
-    padding: 10px; /* Less padding */
-    flex: 1 1 auto; /* Adjust flex settings for columns */
-    max-width: 100%; /* Ensure columns do not exceed screen width */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    min-width: auto;
+    padding: 10px;
+    flex: 1 1 auto;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   h3,
   p,
   a {
-    text-align: center; /* Center-align text for readability */
+    text-align: center;
   }
 
-  /* Adjust list items if necessary */
   ul {
     padding: 0;
     text-align: center;

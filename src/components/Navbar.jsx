@@ -66,8 +66,8 @@ const Navbar = () => {
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="/referrals" className="navlink">
-            <span>REFERRALS</span>
+          <Link to="/testamonials" className="navlink">
+            <span>Testamonials</span>
           </Link>
         </button>
 

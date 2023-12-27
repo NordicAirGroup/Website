@@ -9,7 +9,7 @@ import OurStory from "./pages/ourstory";
 import Clients from "./pages/clients";
 import Services from "./pages/services";
 import Aviation from "./pages/aviation";
-import Referrals from "./pages/referrals";
+import Testamonials from "./pages/Testamonials";
 import "./styles/Navbar.css";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         <Route path="clients" element={<Clients />} />
         <Route path="services" element={<Services />} />
         <Route path="aviation" element={<Aviation />} />
-        <Route path="referrals" element={<Referrals />} />
+        <Route path="testamonials" element={<Testamonials />} />
       </Routes>
       <Footer />
     </div>

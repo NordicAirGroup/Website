@@ -29,7 +29,7 @@
   justify-content: start;
   width: 540px;
   height: 120px;
-  background-color: #fff;
+  background-color: rgb(32, 32, 40);
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -39,6 +39,7 @@
   padding-left: 35px;
   padding-top: 0vh;
   padding-bottom: 0vh;
+  color: #ffffff;
 }
 
 .h1e {
@@ -48,6 +49,7 @@
 .p0 {
   padding-left: 40px;
   font-style: italic;
+  color: #c1c7ce;
 }
 
 .heading-and-subheading {
@@ -59,6 +61,7 @@
   font-style: normal !important;
   margin-bottom: 0px;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .p2 {
@@ -66,11 +69,12 @@
   font-style: normal !important;
   margin-top: 0px;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .p1:hover,
 .p2:hover {
-  color: blue;
+  color: #007bff;
 }
 
 .notifications-container {
