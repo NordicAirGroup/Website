@@ -28,7 +28,7 @@
 }
 
 .ourstory-card {
-  background-color: rgb(32, 32, 40);
+  background-color: rgb(17, 18, 31);
   height: auto;
   width: 800px;
   padding: 40px;
@@ -43,7 +43,7 @@
 }
 
 .ourstory-card p {
-  color: white;
+  color: #d6d6d6;
 }
 
 .jetimage-container img {

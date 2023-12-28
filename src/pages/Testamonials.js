@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import "../styles/Testamonials.css";
 
 function Testamonials() {
   return (
     <div className="Testamonials-container">
       <div className="Testamonials-content">
-        <p>TESTAMONIALS</p>
+        <p>TESTAMONIALS IS UNDER CONSTRUCTION.</p>
+        <p>WILL INCLUDE: VIDEO TESTAMONIALS, DETAILED REVIEWS AND MORE.</p>
+        <p>COMING SOON...</p>
       </div>
     </div>
   );

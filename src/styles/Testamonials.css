@@ -1,12 +1,21 @@
 .Testamonials-container {
-  background-color: red;
-  height: 100vh; /* increase page size */
+  /* background-color: red; */
+  height: auto; /* increase page size */
 }
 
 .Testamonials-content {
-  background-color: blue;
-  height: 50vh;
+  /* background-color: blue; */
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.Testamonials-content p {
+  color: rgb(73, 73, 88);
+  margin: 8px;
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: 2px;
 }

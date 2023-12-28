@@ -15,7 +15,7 @@
 }
 
 .line1 {
-  background-color: rgb(39, 39, 49);
+  background-color: rgb(26, 27, 46);
   height: 2.5px;
   width: 60vw;
   margin-top: -30px;
@@ -42,7 +42,7 @@
   align-items: flex-end;
   height: 520px;
   width: 800px;
-  background-color: rgb(32, 32, 40);
+  background-color: rgb(17, 18, 31);
   border-radius: 30px;
   box-shadow: 8px 10px 8px rgba(0, 0, 0, 0.144);
 }
@@ -59,7 +59,7 @@
   align-self: flex-end;
   padding-right: 35px;
   font-style: italic;
-  color: #c1c7ce;
+  color: #eeeeee;
 }
 
 .joar-card .p1j {
@@ -67,7 +67,7 @@
   padding-right: 35px;
   font-style: normal;
   text-align: right;
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 .joar-card .p2j-contact {
@@ -77,7 +77,7 @@
   margin-top: 65px;
   font-size: 14.5px;
   font-style: normal;
-  color: white;
+  color: #eeeeee;
 }
 
 @media screen and (max-width: 1170px) {

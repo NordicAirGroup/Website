@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import "../styles/aviation.css";
 
 function Aviation() {
   return (
     <div className="aviation-container">
       <div className="aviation-content">
-        <p>AVIATION</p>
+        <div className="color"></div>
+        <p>AVIATION IS UNDER CONSTRUCTION.</p>
+        <p>WILL INCLUDE: MARKET REPORTS, LATEST NEWS AND MORE.</p>
+        <p>COMING SOON...</p>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ const Socials = () => {
     <div className="main-ersu-socials">
       <div className="up">
         <a
-          href="https://www.whatsapp.com"
+          href="https://wa.me/46707238495"
           target="_blank"
           rel="noopener noreferrer"
         >

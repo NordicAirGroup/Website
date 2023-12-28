@@ -1,44 +1,43 @@
 .privacy-container {
   font-family: Arial, sans-serif;
-  background-color: #2a2a2a;
   color: #fff;
-  margin-top: 20vh !important; 
+  margin-top: 100px;
   min-height: calc(100vh - 100px);
   padding-bottom: 50px;
 }
 
 .privacy-content {
-  margin: 20px auto; 
+  margin: 20px auto;
   padding: 20px;
-  max-width: 800px; 
-  background-color: #333; 
+  max-width: 800px;
+  background-color: rgb(32, 32, 40);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .privacy-content h1,
 .privacy-content h2,
 .privacy-content h3,
 .privacy-content p {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .privacy-content h2,
 .privacy-content h1 {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .privacy-content h3 {
-  color: #949494; 
+  color: #d6d6d6;
 }
 
 .privacy-content p {
-  color: #ddd; 
-  line-height: 1.6; 
+  color: #d6d6d6;
+  line-height: 1.6;
 }
 
 @media screen and (min-width: 768px) {
   .privacy-container {
-    margin-top: 120px; 
+    margin-top: 120px;
   }
 }

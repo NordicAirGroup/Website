@@ -1,0 +1,57 @@
+.aircraft-card {
+  background-color: rgb(17, 18, 31);
+  height: 350px;
+  width: 280px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.055);
+  z-index: 1;
+}
+
+.aircraft-card-border {
+  height: 2px;
+  width: 280px;
+  background-color: rgb(29, 30, 51);
+  margin-top: -7px;
+}
+
+.aircraft-card h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.ac-p-container {
+  /* background-color: green; */
+  height: 140px;
+}
+
+.aircraft-card p {
+  color: #eeeeee;
+  font-size: 17px;
+}
+
+.aircraft-card-tags-container {
+  /* background-color: blue; */
+  width: 280px;
+  height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: default;
+}
+
+.aircraft-card-tags-container > p {
+  color: #eeeeee;
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(21, 22, 37);
+  border-radius: 5px;
+  display: inline-block;
+}

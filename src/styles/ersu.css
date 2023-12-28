@@ -29,7 +29,7 @@
   align-items: flex-start;
   height: 520px;
   width: 800px;
-  background-color: rgb(32, 32, 40);
+  background-color: rgb(17, 18, 31);
   border-radius: 30px;
   box-shadow: 8px 10px 8px rgba(0, 0, 0, 0.144);
   text-align: left;
@@ -40,21 +40,21 @@
   padding-left: 30px;
   padding-top: 5px;
   padding-bottom: 0vh;
-  color: white;
+  color: #ffffff;
 }
 
 .pe {
   align-self: flex-start;
   padding-left: 35px;
   font-style: italic;
-  color: #c1c7ce;
+  color: #d6d6d6;
 }
 
 .ersu-card .p1e {
   padding-left: 35px;
   padding-right: 35px;
   font-style: normal;
-  color: white;
+  color: #d6d6d6;
 }
 
 .ersu-card .p2e-contact {
@@ -64,7 +64,7 @@
   margin-top: 65px;
   font-size: 14.5px;
   font-style: normal;
-  color: white;
+  color: #eeeeee;
 }
 
 @media screen and (max-width: 1170px) {
@@ -100,7 +100,7 @@
 
   .ersu-img {
     order: 1;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
     margin-left: 0;
     z-index: 1;
   }
