@@ -49,7 +49,7 @@ const Navbar = () => {
       </div>
 
       <div className="logo-container">
-        <Button className="logo-button" component={Link} to="/">
+        <Button disableRipple className="logo-button" component={Link} to="/">
           <img src={logo} alt="NordicAirGroup" />
         </Button>
       </div>

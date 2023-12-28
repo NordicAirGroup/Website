@@ -1,12 +1,24 @@
 .services-container {
-  background-color: red;
-  height: 100vh;
+  /* background-color: red; */
+  height: auto;
 }
 
 .services-content {
-  background-color: blue;
-  height: 50vh;
+  /* background-color: blue; */
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.services-content h1 {
+  color: white;
+}
+
+.services-border {
+  background-color: rgb(39, 39, 49);
+  height: 2.5px;
+  width: 90vw;
+  margin-top: -20px;
 }
