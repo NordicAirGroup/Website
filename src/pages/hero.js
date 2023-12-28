@@ -36,7 +36,7 @@ function Hero() {
         <h1 className="hero-title">
           CONNECTING AMBITONS, ONE AIRCRAFT AT A TIME.
         </h1>
-        <Button className="about-button" component={Link} to="/ourstory">
+        <Button className="about-button" component={Link} to="/ourstory#about">
           <span className="box">A B O U T</span>
         </Button>
       </header>

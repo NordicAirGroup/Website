@@ -32,18 +32,18 @@ const Navbar = () => {
     <div className="navbar">
       <div className="left-section">
         <button className="navbutton">
-          <Link to="/contact" className="navlink">
-            <span>CONTACT</span>
+          <Link to="/testamonials" className="navlink">
+            <span>TESTAMONIALS</span>
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="/ourstory" className="navlink">
-            <span>OUR STORY</span>
+          <Link to="/aviation" className="navlink">
+            <span>AVIATION</span>
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="/clients" className="navlink">
-            <span>CLIENTS</span>
+          <Link to="/services" className="navlink">
+            <span>SERVICES</span>
           </Link>
         </button>
       </div>
@@ -56,18 +56,18 @@ const Navbar = () => {
 
       <div className="right-section">
         <button className="navbutton">
-          <Link to="/services" className="navlink">
-            <span>SERVICES</span>
+          <Link to="/clients" className="navlink">
+            <span>CLIENTS</span>
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="/aviation" className="navlink">
-            <span>AVIATION</span>
+          <Link to="/contact" className="navlink">
+            <span>CONTACT</span>
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="/testamonials" className="navlink">
-            <span>Testamonials</span>
+          <Link to="/ourstory" className="navlink">
+            <span>OUR STORY</span>
           </Link>
         </button>
 

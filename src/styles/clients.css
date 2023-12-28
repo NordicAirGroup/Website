@@ -45,3 +45,16 @@
   width: 90vw;
   margin-top: -20px;
 }
+
+.clients-color {
+  height: 600px;
+  width: 600px;
+  background: linear-gradient(to bottom, #398dfa 40%, #1a0a74 50%);
+  filter: blur(300px);
+  border-radius: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 45%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+}

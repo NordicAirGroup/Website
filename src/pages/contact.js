@@ -15,6 +15,8 @@ function Contact() {
         <ContactInfo />
         <ContactInfoErsu />
       </div>
+      <div className="contact-color"></div>
+      <div className="contact-color2"></div>
     </div>
   );
 }

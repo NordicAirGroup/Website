@@ -5,7 +5,7 @@ import JoarImage from "../assets/Joar-photo.png";
 
 const Joar = () => {
   return (
-    <div className="joar-container">
+    <div className="joar-container" id="about">
       <h1 className="h1abt">ABOUT US</h1>
       <div className="line1"></div>
       <div className="joar-wrapper">

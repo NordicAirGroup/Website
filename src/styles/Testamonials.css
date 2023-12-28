@@ -13,9 +13,23 @@
 }
 
 .Testamonials-content p {
-  color: rgb(73, 73, 88);
+  color: #eeee;
   margin: 8px;
   font-weight: 800;
   font-size: 22px;
   letter-spacing: 2px;
+  z-index: 1;
+}
+
+.testamonials-color {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(to bottom, #398dfa 40%, #1a0a74 50%);
+  filter: blur(180px);
+  border-radius: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

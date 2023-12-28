@@ -5,8 +5,18 @@ import Joar from "../components/Joar";
 import Ersu from "../components/Ersu";
 import "../styles/about.css";
 import JetImage from "../assets/JetImage.jpg";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 function OurStory() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash === "#about") {
+      document.getElementById("about")?.scrollIntoView();
+    }
+  }, [location]);
+
   return (
     <div className="ourstory-container">
       <div className="ourstory-content">
@@ -50,6 +60,8 @@ function OurStory() {
         <Joar />
         <Ersu />
       </div>
+      <div className="ourstory-color"></div>
+      <div className="ourstory-color2"></div>
     </div>
   );
 }

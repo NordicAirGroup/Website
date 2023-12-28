@@ -28,7 +28,7 @@ function Clients() {
           <AircraftCard6 />
           <AircraftCard7 />
         </div>
-        <div className="color"></div>
+        <div className="clients-color"></div>
       </div>
     </div>
   );

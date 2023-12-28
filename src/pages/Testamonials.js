@@ -5,10 +5,11 @@ function Testamonials() {
   return (
     <div className="Testamonials-container">
       <div className="Testamonials-content">
-        <p>TESTAMONIALS IS UNDER CONSTRUCTION.</p>
+        <p>TESTAMONIALS HOPEFULLY COMING SOON.</p>
         <p>WILL INCLUDE: VIDEO TESTAMONIALS, DETAILED REVIEWS AND MORE.</p>
         <p>COMING SOON...</p>
       </div>
+      <div className="testamonials-color"></div>
     </div>
   );
 }
