@@ -15,7 +15,7 @@ const Joar = () => {
           <p className="pj">Co-Founder & CEO</p>
           <p className="p1j">
             As the Co-Founder of Nordic Air Group, Joar Lennermark is deeply
-            passioned about aviation, sales, and entrepreneurial ventures.
+            passionate about aviation, sales, and entrepreneurial ventures.
             Fueled by aspirations to specialize in aviation brokerage, Nordic
             Air Group represents an early, yet promising, beginning towards
             realizing this aspiration. Currently balancing his academic
