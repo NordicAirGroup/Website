@@ -16,13 +16,12 @@ const Joar = () => {
           <p className="p1j">
             Being the Co-Founder of Nordic Air Group, Joar Lennermark has a
             passion for aviation, sales and entrepreneurship. With very high
-            ambitions of dedicating his life towards improving and evolving
-            humanity, Nordic Air Group is the first leap of making this dream a
-            reality. At only 17-years old, Joar is in addition building a
-            software company, whilst maintaning top grades in school and
-            studying courses such as mathematics one year before his peers and
-            programming at double speed. Joar is always looking for a new
-            challenge to conquer.
+            ambitions of dedicating his life towards improving humanity, Nordic
+            Air Group is the first leap of making this dream a reality. As a
+            student, Joar is in addition building a software company, whilst
+            maintaning top grades in school and studying courses such as
+            mathematics one year before his peers and programming at double
+            speed. Joar is always looking for a new challenge to conquer.
           </p>
           <p className="p2j-contact">
             Contact:
