@@ -6,7 +6,7 @@ import "../App.css";
 import Navbar from "../components/Navbar";
 import { useEffect } from "react";
 import Services from "../components/services";
-import Clients from "./clients";
+import Clients from "../components/clients";
 import About from "../components/about";
 
 function Home() {
@@ -39,11 +39,7 @@ function Home() {
           <h1 className="hero-title">
             CONNECTING AMBITONS, ONE AIRCRAFT AT A TIME.
           </h1>
-          <Button
-            className="about-button"
-            component={Link}
-            to="/ourstory#about"
-          >
+          <Button className="about-button" component={Link} to="/#about">
             <span className="box">A B O U T</span>
           </Button>
         </header>
