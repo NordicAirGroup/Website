@@ -12,13 +12,13 @@ const Ersu = () => {
           <h1>Ersu Dalbudak</h1>
           <p className="pe">Co-Founder & SDR</p>
           <p className="p1e">
-            Ersu Dalbudak began his entrepreneurial journey remarkably early,
-            successfully selling his first self-made product at just 12 years
-            old. Since then Ersu has continued his passion for entrepreneurship
-            combined with aviation at Nordic Air Group. Ersu has been fueled by
-            a lifelong passion for aircraft and aviation. His journey also
-            includes triumph in a pitching competition, where he acquired
-            invaluable skills. These skills and experiences are now an asset to
+            Ersu Dalbudak's entrepreneurial spirit was ignited at the age of 12
+            when he made his first sale, marking the beginning of a journey
+            fueled by dedication and passion. At Nordic Air Group, Ersu blends
+            his enthusiasm for entrepreneurship with his love for aircraft, a
+            combination that has propelled him forward. His skills were further
+            honed through a pitching competition victory, equipping him with
+            valuable insights. These skills and experiences are now an asset to
             his role at NAG, where he is determined to make a significant
             impact.
           </p>
