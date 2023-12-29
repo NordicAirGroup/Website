@@ -61,7 +61,7 @@
   border-radius: 100%;
   position: absolute;
   z-index: 0;
-  top: 100%;
+  top: 40%;
   left: 80%;
   transform: translate(-50%, -50%);
   overflow: hidden !important;
@@ -75,7 +75,7 @@
   border-radius: 100%;
   position: absolute;
   z-index: 0;
-  top: 190%;
+  top: 95%;
   left: 20%;
   transform: translate(-50%, -50%);
   overflow: hidden !important;
