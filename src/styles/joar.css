@@ -35,6 +35,7 @@
   border-radius: 50%;
   margin-right: 2vw;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.082);
+  z-index: 2;
 }
 
 .joar-card {
@@ -113,7 +114,6 @@
     height: auto;
     margin-bottom: -20px;
     margin-right: 0;
-    z-index: 1;
   }
 
   .joar-card .p1j {
