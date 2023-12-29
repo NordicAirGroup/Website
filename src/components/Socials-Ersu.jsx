@@ -44,7 +44,7 @@ const Socials = () => {
 
       <div className="down">
         <a
-          href="https://twitter.com/ErsuA2"
+          href="https://twitter.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
