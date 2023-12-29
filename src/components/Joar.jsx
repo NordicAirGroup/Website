@@ -19,11 +19,10 @@ const Joar = () => {
             Fueled by aspirations to specialize in aviation brokerage, Nordic
             Air Group represents an early, yet promising, beginning towards
             realizing this aspiration. Currently balancing his academic
-            pursuits, Joar is simultaneously building a software company,
-            consistently achieving exemplary academic results, and pursuing
-            advanced studies in mathematics a year ahead of his peers. Joar's
-            relentless pursuit of new challenges underscores his dedication to
-            making a meaningful impact in the aviation sector.
+            pursuits, Joar is simultaneously building a software company, and
+            pursuing advanced studies in mathematics a year ahead of his peers.
+            Joar's relentless pursuit of new challenges underscores his
+            dedication to making a meaningful impact in the aviation sector.
           </p>
           <p className="p2j-contact">
             Contact:
