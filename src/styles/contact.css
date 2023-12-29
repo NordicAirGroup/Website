@@ -97,20 +97,6 @@
   background-color: rgb(9, 53, 150);
 }
 
-.contact-color {
-  height: 200px;
-  width: 200px;
-  background: linear-gradient(to bottom, #398dfa 40%, #1a0a74 50%);
-  filter: blur(160px);
-  border-radius: 100%;
-  position: absolute;
-  z-index: 0;
-  top: 130%;
-  left: 15%;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
-}
-
 .contact-color2 {
   height: 400px;
   width: 400px;
@@ -119,7 +105,7 @@
   border-radius: 100%;
   position: absolute;
   z-index: 0;
-  top: 57%;
+  top: 45%;
   left: 75%;
   transform: translate(-50%, -50%);
 }
