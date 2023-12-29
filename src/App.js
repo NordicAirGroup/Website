@@ -15,8 +15,10 @@ import ScrollToAnchor from "./components/ScrollToAnchor";
 
 function App() {
   return (
-    <div className="Notification-App">
-      <p> THIS WEBSITE IS CURRENTLY UNDER CONSTRUCTION</p>
+    <div>
+      <div className="Notification-App">
+        <p> THIS WEBSITE IS CURRENTLY UNDER CONSTRUCTION</p>
+      </div>
       <div className="App">
         <Navbar />
         <ScrollToAnchor />
