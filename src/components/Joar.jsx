@@ -14,15 +14,16 @@ const Joar = () => {
           <h1>Joar Lennermark</h1>
           <p className="pj">Co-Founder & CEO</p>
           <p className="p1j">
-            Being the Co-Founder of Nordic Air Group, Joar Lennermark has a
-            passion for aviation, sales and entrepreneurship. With very high
-            ambitions of dedicating his life towards improving humanity, Nordic
-            Air Group is the first leap of making this dream a reality. As a
-            student, Joar is in addition building a software company, whilst
-            maintaning top grades in school and studying courses such as
-            mathematics one year before his peers. Joar is always looking for a
-            new challenge to conquer and aims to provide significant value to
-            the aviation industry.
+            As the Co-Founder of Nordic Air Group, Joar Lennermark is deeply
+            passioned about aviation, sales, and entrepreneurial ventures.
+            Fueled by aspirations to specialize in aviation brokerage, Nordic
+            Air Group represents an early, yet promising, beginning towards
+            realizing this aspiration. Currently balancing his academic
+            pursuits, Joar is simultaneously building a software company,
+            consistently achieving exemplary academic results, and pursuing
+            advanced studies in mathematics one year ahead of his class. Joar's
+            relentless pursuit of new challenges underscores his dedication to
+            making a meaningful impact in the aviation sector.
           </p>
           <p className="p2j-contact">
             Contact:
