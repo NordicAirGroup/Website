@@ -20,8 +20,9 @@ const Joar = () => {
             Air Group is the first leap of making this dream a reality. As a
             student, Joar is in addition building a software company, whilst
             maintaning top grades in school and studying courses such as
-            mathematics one year before his peers and programming at double
-            speed. Joar is always looking for a new challenge to conquer.
+            mathematics one year before his peers. Joar is always looking for a
+            new challenge to conquer and aims to provide significant value to
+            the aviation industry.
           </p>
           <p className="p2j-contact">
             Contact:
