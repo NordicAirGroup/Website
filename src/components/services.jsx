@@ -7,7 +7,7 @@ import LeadsIcon from "../assets/leads-icon.png";
 import PolicyIcon from "../assets/policy-icon.png";
 import StarIcon from "../assets/star-icon.png";
 
-function Services() {
+const Services = () => {
   return (
     <div className="services-container">
       <div className="services-card-container">
@@ -104,6 +104,6 @@ function Services() {
       </div>
     </div>
   );
-}
+};
 
 export default Services;

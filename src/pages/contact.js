@@ -12,6 +12,7 @@ function Contact() {
         <ContactForm />
       </div>
       <div className="contact-container-info">
+        <h1>CONTACT US</h1>
         <ContactInfo />
         <ContactInfoErsu />
       </div>

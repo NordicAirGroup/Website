@@ -1,11 +1,8 @@
-.services-container {
-  /* background-color: red; */
-  height: auto;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
-.services-content {
-  background-color: blue;
-  height: 100vh;
+.services-container {
+  /* background-color: blue; */
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,22 +10,136 @@
 }
 
 .services-card-container {
-  background-color: green;
+  /* background-color: green; */
   display: flex;
+  width: 90vw;
+  height: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.services-left-container {
+  /* background-color: rgb(0, 19, 128); */
+  width: 50%;
+  height: 450px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 90vw;
-  height: 300px;
+  align-items: center;
 }
 
-.services-content h1 {
+.services-right-container {
+  /* background-color: rgb(0, 70, 128); */
+  width: 50%;
+  height: 450px;
+  align-self: flex-end;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.services-left-container h3 {
+  color: rgb(34, 140, 240);
+  font-size: 26px;
+  margin-top: -27px;
+}
+
+.services-left-container h1 {
   color: white;
-  letter-spacing: 1px;
-  font-size: 40px;
+  font-size: 70px;
+  margin-top: 0px;
+  margin-left: 2.4vw;
+  margin-right: 2.4vw;
 }
 
-.services-border {
-  background-color: rgb(39, 39, 49);
-  height: 2.5px;
-  width: 90vw;
-  margin-top: -20px;
+.services-left-container p {
+  color: #d6d6d6;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-left: 2.6vw;
+  margin-right: 2.6vw;
+}
+
+.services-button {
+  align-self: flex-start;
+  height: 45px !important;
+  width: 200px !important;
+  font-family: "Roboto", sans-serif !important;
+  letter-spacing: 3px !important;
+  font-weight: 1000 !important;
+  font-size: 14px !important;
+  color: white !important;
+  background-color: rgb(30, 118, 201) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  transition: ease-in-out 0.2s !important;
+  margin-left: 2.6vw !important;
+  margin-top: 27px !important;
+}
+
+.services-button:hover {
+  background-color: rgb(34, 140, 240) !important;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: default;
+  transition: ease-in-out 0.2s;
+  border-radius: 25px;
+  width: 40vw;
+}
+
+.service-card:hover {
+  background-color: rgb(17, 18, 31);
+}
+
+.service-card-icon-container {
+  height: 40px;
+}
+
+.service-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  margin: 8px;
+  margin-left: 26px;
+  margin-right: 20px;
+  background-color: rgb(17, 18, 31);
+  padding: 13px;
+  border-radius: 100%;
+}
+
+.service-card-text-container {
+  margin: 2px;
+}
+
+.service-card-text-container h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.service-card-text-container p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1170px) {
+  .services-card-container {
+    flex-direction: column;
+  }
+
+  .services-right-container {
+    width: 100%;
+  }
+
+  .services-left-container {
+    width: 100%;
+  }
 }
