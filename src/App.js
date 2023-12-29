@@ -15,21 +15,24 @@ import ScrollToAnchor from "./components/ScrollToAnchor";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <ScrollToAnchor />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="privacy" element={<Privacy />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="ourstory" element={<OurStory />} />
-        <Route path="clients" element={<Clients />} />
-        <Route path="services" element={<Services />} />
-        <Route path="aviation" element={<Aviation />} />
-        <Route path="testamonials" element={<Testamonials />} />
-      </Routes>
-      <Footer />
+    <div className="Notification-App">
+      <p> THIS WEBSITE IS CURRENTLY UNDER CONSTRUCTION</p>
+      <div className="App">
+        <Navbar />
+        <ScrollToAnchor />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="privacy" element={<Privacy />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="ourstory" element={<OurStory />} />
+          <Route path="clients" element={<Clients />} />
+          <Route path="services" element={<Services />} />
+          <Route path="aviation" element={<Aviation />} />
+          <Route path="testamonials" element={<Testamonials />} />
+        </Routes>
+        <Footer />
+      </div>
     </div>
   );
 }

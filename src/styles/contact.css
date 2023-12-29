@@ -14,6 +14,10 @@
   flex-direction: column;
 }
 
+.contact-container-info h1 {
+  color: white;
+}
+
 .contact-container-form {
   /* background-color: blue; */
   height: 441px;

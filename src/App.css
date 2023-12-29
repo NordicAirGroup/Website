@@ -12,6 +12,11 @@ html {
   position: relative;
 }
 
+.App {
+  top: 1rem !important;
+  position: relative;
+}
+
 .App-header {
   position: relative;
   display: flex;

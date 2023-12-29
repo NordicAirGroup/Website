@@ -4,6 +4,9 @@ import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import logo from "../logo.png";
 import { useState, useEffect } from "react";
+import { Router } from "react-router-dom";
+import Home from "../pages/home";
+import Testamonials from "../pages/Testamonials";
 
 const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -42,7 +45,7 @@ const Navbar = () => {
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="#services" className="navlink" component={Link}>
+          <Link to="/#services" className="navlink" component={Link}>
             <span>SERVICES</span>
           </Link>
         </button>
@@ -56,7 +59,7 @@ const Navbar = () => {
 
       <div className="right-section">
         <button className="navbutton">
-          <Link to="/clients" className="navlink">
+          <Link to="#clients" className="navlink" component={Link}>
             <span>CLIENTS</span>
           </Link>
         </button>
@@ -92,7 +95,7 @@ const Navbar = () => {
           <Link to="/ourstory" onClick={() => setDropdownVisible(false)}>
             OUR STORY
           </Link>
-          <Link to="/clients" onClick={() => setDropdownVisible(false)}>
+          <Link to="#clients" onClick={() => setDropdownVisible(false)}>
             CLIENTS
           </Link>
           <Link to="#services" onClick={() => setDropdownVisible(false)}>

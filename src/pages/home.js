@@ -6,6 +6,7 @@ import "../App.css";
 import Navbar from "../components/Navbar";
 import { useEffect } from "react";
 import Services from "../components/services";
+import Clients from "./clients";
 
 function Home() {
   useEffect(() => {
@@ -47,6 +48,7 @@ function Home() {
         </header>
       </div>
       <Services />
+      <Clients />
     </div>
   );
 }
