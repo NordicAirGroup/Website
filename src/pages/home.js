@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import { useEffect } from "react";
 import Services from "../components/services";
 import Clients from "./clients";
+import About from "../components/about";
 
 function Home() {
   useEffect(() => {
@@ -49,6 +50,7 @@ function Home() {
       </div>
       <Services />
       <Clients />
+      <About />
     </div>
   );
 }
