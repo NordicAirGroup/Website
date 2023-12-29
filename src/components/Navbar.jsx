@@ -42,7 +42,7 @@ const Navbar = () => {
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="/services" className="navlink">
+          <Link to="#services" className="navlink" component={Link}>
             <span>SERVICES</span>
           </Link>
         </button>
@@ -95,7 +95,7 @@ const Navbar = () => {
           <Link to="/clients" onClick={() => setDropdownVisible(false)}>
             CLIENTS
           </Link>
-          <Link to="/services" onClick={() => setDropdownVisible(false)}>
+          <Link to="#services" onClick={() => setDropdownVisible(false)}>
             SERVICES
           </Link>
           <Link to="/aviation" onClick={() => setDropdownVisible(false)}>

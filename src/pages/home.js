@@ -9,7 +9,6 @@ import Services from "../components/services";
 
 function Home() {
   useEffect(() => {
-    // Select all video elements and set their attributes
     const videos = document.getElementsByTagName("video");
     for (let video of videos) {
       video.setAttribute("playsinline", "");

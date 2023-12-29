@@ -11,11 +11,13 @@ import Services from "./pages/services";
 import Aviation from "./pages/aviation";
 import Testamonials from "./pages/Testamonials";
 import "./styles/Navbar.css";
+import ScrollToAnchor from "./components/ScrollToAnchor";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <ScrollToAnchor />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />

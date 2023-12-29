@@ -6,10 +6,20 @@ import SheildIcon from "../assets/sheild-icon.png";
 import LeadsIcon from "../assets/leads-icon.png";
 import PolicyIcon from "../assets/policy-icon.png";
 import StarIcon from "../assets/star-icon.png";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 const Services = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash === "#services") {
+      document.getElementById("services")?.scrollIntoView();
+    }
+  }, [location]);
+
   return (
-    <div className="services-container">
+    <div id="services" className="services-container">
       <div className="services-card-container">
         <div className="services-left-container">
           <h3>SERVICE</h3>
