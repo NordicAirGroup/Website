@@ -21,7 +21,7 @@ const Joar = () => {
             realizing this aspiration. Currently balancing his academic
             pursuits, Joar is simultaneously building a software company,
             consistently achieving exemplary academic results, and pursuing
-            advanced studies in mathematics one year ahead of his class. Joar's
+            advanced studies in mathematics a year ahead of his peers. Joar's
             relentless pursuit of new challenges underscores his dedication to
             making a meaningful impact in the aviation sector.
           </p>
