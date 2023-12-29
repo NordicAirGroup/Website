@@ -130,6 +130,10 @@
   .contact-container-info {
     width: 100%;
   }
+
+  .contact-color2 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1300px) {

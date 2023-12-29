@@ -59,7 +59,7 @@ const Navbar = () => {
 
       <div className="right-section">
         <button className="navbutton">
-          <Link to="#clients" className="navlink" component={Link}>
+          <Link to="/#clients" className="navlink" component={Link}>
             <span>CLIENTS</span>
           </Link>
         </button>
