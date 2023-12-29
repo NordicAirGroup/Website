@@ -17,6 +17,11 @@ html {
   position: relative;
 }
 
+.Notification-App p {
+  height: 10px;
+  text-align: center;
+}
+
 .App-header {
   position: relative;
   display: flex;
