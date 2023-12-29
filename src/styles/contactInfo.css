@@ -90,6 +90,10 @@
   .contactInfo {
     padding-right: 10px;
   }
+
+  .jcontact-card {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 1010px) {
