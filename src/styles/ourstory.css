@@ -6,6 +6,7 @@
   height: auto;
   width: 100%;
   display: flex;
+  padding-top: 30px;
   padding-bottom: 100px;
 }
 
@@ -176,6 +177,7 @@
     /* background-color: blue; */
     flex-direction: column;
     height: auto;
+    padding-top: 10px;
   }
 
   .ourstory-card {

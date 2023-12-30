@@ -69,7 +69,7 @@ const Navbar = () => {
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="/ourstory" className="navlink">
+          <Link to="/#ourstory" className="navlink">
             <span>OUR STORY</span>
           </Link>
         </button>

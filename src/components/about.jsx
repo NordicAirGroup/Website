@@ -16,13 +16,21 @@ const About = () => {
     }
   }, [location]);
 
+  const location2 = useLocation();
+
+  useEffect(() => {
+    if (location2.hash === "#ourstory") {
+      document.getElementById("ourstory")?.scrollIntoView();
+    }
+  }, [location2]);
+
   return (
     <div>
       <div id="about" className="about-container">
         <Joar />
         <Ersu />
       </div>
-      <div className="ourstory-container">
+      <div id="ourstory" className="ourstory-container">
         <div className="ourstory-content">
           <div className="jetimage-container">
             <img src={JetImage} alt="JetImage" />
