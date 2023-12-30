@@ -45,8 +45,8 @@ const Navbar = () => {
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="/#services" className="navlink" component={Link}>
-            <span>SERVICES</span>
+          <Link to="/contact" className="navlink" component={Link}>
+            <span>CONTACT</span>
           </Link>
         </button>
       </div>
@@ -64,8 +64,8 @@ const Navbar = () => {
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="/contact" className="navlink">
-            <span>CONTACT</span>
+          <Link to="/#services" className="navlink">
+            <span>SERVICES</span>
           </Link>
         </button>
         <button className="navbutton">
