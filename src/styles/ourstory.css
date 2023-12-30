@@ -101,7 +101,7 @@
   border-radius: 100%;
   position: absolute;
   z-index: -1;
-  top: 440%;
+  top: 400%;
   left: 47%;
   transform: translate(-50%, -50%);
   overflow: hidden !important;
