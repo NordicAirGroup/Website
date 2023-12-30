@@ -52,14 +52,14 @@
 }
 
 .ourstory-color {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   background: linear-gradient(to bottom, #398dfa 40%, #1a0a74 50%);
-  filter: blur(250px);
+  filter: blur(200px);
   border-radius: 100%;
   position: absolute;
-  z-index: 0;
-  top: 40%;
+  z-index: -1;
+  top: 200%;
   left: 80%;
   transform: translate(-50%, -50%);
   overflow: hidden !important;
@@ -72,9 +72,37 @@
   filter: blur(220px);
   border-radius: 100%;
   position: absolute;
-  z-index: 0;
-  top: 95%;
-  left: 20%;
+  z-index: -1;
+  top: 130%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  overflow: hidden !important;
+}
+
+.ourstory-color3 {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(to bottom, #398dfa 40%, #1a0a74 50%);
+  filter: blur(180px);
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 340%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  overflow: hidden !important;
+}
+
+.ourstory-color4 {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(to bottom, #398dfa 40%, #1a0a74 50%);
+  filter: blur(220px);
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 440%;
+  left: 47%;
   transform: translate(-50%, -50%);
   overflow: hidden !important;
 }
