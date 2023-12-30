@@ -12,11 +12,6 @@ html {
   position: relative;
 }
 
-.App {
-  top: 3rem !important;
-  position: relative;
-}
-
 .Notification-App {
   background-color: rgb(39, 39, 49);
   height: 3rem;
