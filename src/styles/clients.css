@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 110px;
+  margin-bottom: 90px;
 }
 
 .client-title-container {
@@ -46,4 +46,10 @@
   height: 2.5px;
   width: 85vw;
   margin-top: -20px;
+}
+
+@media screen and (max-width: 1170px) {
+  .clients-content {
+    margin-bottom: 25px;
+  }
 }
