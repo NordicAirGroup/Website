@@ -165,4 +165,12 @@
     padding: 6.5px;
     border-radius: 100%;
   }
+
+  .services-left-container h3 {
+    font-size: 20px;
+  }
+  
+  .services-left-container h1 {
+    font-size: 55px;
+  }
 }
