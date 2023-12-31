@@ -66,10 +66,6 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="ourstory-color"></div>
-        <div className="ourstory-color2"></div>
-        <div className="ourstory-color3"></div>
-        <div className="ourstory-color4"></div>
       </div>
     </div>
   );
