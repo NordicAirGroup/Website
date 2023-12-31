@@ -148,4 +148,21 @@
   .services-left-container {
     width: 100%;
   }
+
+  .service-card-icon-container {
+    height: 20px;
+  }
+  
+  .service-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 21px;
+    margin: 8px;
+    margin-left: 13px;
+    margin-right: 10px;
+    background-color: rgb(17, 18, 31);
+    padding: 6.5px;
+    border-radius: 100%;
+  }
 }
