@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import Services from "../components/services";
 import Clients from "../components/clients";
 import About from "../components/about";
+import "../styles/ourstory.css";
 
 function Home() {
   useEffect(() => {
@@ -47,6 +48,10 @@ function Home() {
       <Services />
       <Clients />
       <About />
+      <div className="ourstory-color"></div>
+        <div className="ourstory-color2"></div>
+        <div className="ourstory-color3"></div>
+        <div className="ourstory-color4"></div>
     </div>
   );
 }

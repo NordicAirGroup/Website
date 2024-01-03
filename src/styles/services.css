@@ -148,4 +148,43 @@
   .services-left-container {
     width: 100%;
   }
+
+  .service-card-icon-container {
+    height: 27px;
+  }
+  
+  .service-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 27px;
+    margin: 8px;
+    margin-left: 12px;
+    margin-right: 0px;
+    background-color: rgb(17, 18, 31);
+    padding: 6.5px;
+    border-radius: 100%;
+  }
+
+  .services-left-container h3 {
+    font-size: 20px;
+  }
+  
+  .services-left-container h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .services-right-container {
+    margin-top: 60px;
+  }
+
+  .services-card-container {
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  .services-button {
+    align-self: center;
+  }
 }

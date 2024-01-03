@@ -60,8 +60,6 @@ function OurStory() {
         <Joar />
         <Ersu />
       </div>
-      <div className="ourstory-color"></div>
-      <div className="ourstory-color2"></div>
     </div>
   );
 }
