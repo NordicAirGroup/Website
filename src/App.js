@@ -9,7 +9,7 @@ import OurStory from "./pages/ourstory";
 import Clients from "./pages/clients";
 import Services from "./pages/services";
 import Aviation from "./pages/aviation";
-import Testamonials from "./pages/Testamonials";
+import Testimonials from "./pages/Testimonials";
 import "./styles/Navbar.css";
 import ScrollToAnchor from "./components/ScrollToAnchor";
 
@@ -27,7 +27,7 @@ function App() {
         <Route path="clients" element={<Clients />} />
         <Route path="services" element={<Services />} />
         <Route path="aviation" element={<Aviation />} />
-        <Route path="testamonials" element={<Testamonials />} />
+        <Route path="testimonials" element={<Testimonials />} />
       </Routes>
       <Footer />
     </div>
