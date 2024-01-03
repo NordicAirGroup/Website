@@ -104,8 +104,8 @@ const Navbar = () => {
           <Link to="/aviation" onClick={() => setDropdownVisible(false)}>
             AVIATION
           </Link>
-          <Link to="/referrals" onClick={() => setDropdownVisible(false)}>
-            REFERRALS
+          <Link to="/testimonials" onClick={() => setDropdownVisible(false)}>
+            TESTIMONIALS
           </Link>
         </div>
       </div>
