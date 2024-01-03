@@ -6,7 +6,7 @@ import logo from "../logo.png";
 import { useState, useEffect } from "react";
 import { Router } from "react-router-dom";
 import Home from "../pages/home";
-import Testamonials from "../pages/Testamonials";
+import Testimonials from "../pages/Testimonials";
 
 const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
