@@ -15,7 +15,6 @@
   width: 90vw;
   height: auto;
   margin-top: 150px;
-  margin-bottom: 150px;
 }
 
 .services-left-container {
@@ -152,7 +151,7 @@
   .service-card-icon-container {
     height: 27px;
   }
-  
+
   .service-img-container {
     display: flex;
     align-items: center;
@@ -169,7 +168,7 @@
   .services-left-container h3 {
     font-size: 20px;
   }
-  
+
   .services-left-container h1 {
     font-size: 55px;
     text-align: center;

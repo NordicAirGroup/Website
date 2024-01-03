@@ -3,7 +3,7 @@ import videoSource from "../assets/myvideo.mp4";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import "../App.css";
-import Navbar from "../components/Navbar";
+import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Services from "../components/services";
 import Clients from "../components/clients";
@@ -20,9 +20,17 @@ function Home() {
     }
   }, []);
 
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash === "#home") {
+      document.getElementById("home")?.scrollIntoView();
+    }
+  }, [location]);
+
   return (
     <div>
-      <div className="container">
+      <div className="container" id="home">
         <header className="App-header">
           <div className="video-overlay"></div>
           <video
@@ -49,9 +57,9 @@ function Home() {
       <Clients />
       <About />
       <div className="ourstory-color"></div>
-        <div className="ourstory-color2"></div>
-        <div className="ourstory-color3"></div>
-        <div className="ourstory-color4"></div>
+      <div className="ourstory-color2"></div>
+      <div className="ourstory-color3"></div>
+      <div className="ourstory-color4"></div>
     </div>
   );
 }

@@ -52,7 +52,12 @@ const Navbar = () => {
       </div>
 
       <div className="logo-container">
-        <Button disableRipple className="logo-button" component={Link} to="/">
+        <Button
+          disableRipple
+          className="logo-button"
+          component={Link}
+          to="/#home"
+        >
           <img src={logo} alt="NordicAirGroup" />
         </Button>
       </div>
