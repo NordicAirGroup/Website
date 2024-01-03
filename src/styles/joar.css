@@ -102,6 +102,7 @@
 
   .joar-container {
     min-height: 100vh;
+    padding-top: 80px;
   }
 
   .joar-card h1 {

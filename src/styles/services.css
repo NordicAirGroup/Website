@@ -179,8 +179,7 @@
   }
 
   .services-card-container {
-    margin-top: 100px;
-    margin-bottom: 60px;
+    padding-top: 0px;
   }
 
   .services-button {

@@ -50,6 +50,7 @@
   border-radius: 10%;
   margin-right: 1vw;
   z-index: 2;
+  box-shadow: 8px 10px 8px rgba(0, 0, 0, 0.144);
 }
 
 .ourstory-color {
@@ -163,7 +164,7 @@
   }
 
   .jetimage-container img {
-    margin-top: 0px;
+    margin-top: 50px;
   }
 
   .ourstory-card {
@@ -181,7 +182,7 @@
   }
 
   .ourstory-card {
-    margin-top: 0px !important;
+    margin-top: 50px !important;
     height: auto !important;
   }
 
@@ -201,8 +202,8 @@
 
   .jetimage-container img {
     /* background-color: green; */
-    margin-top: -20px;
-    margin-bottom: -40px;
+    margin-top: 50px;
+    margin-bottom: -85px;
     height: 60vw;
     border-radius: 10%;
     margin-right: 0vw;
