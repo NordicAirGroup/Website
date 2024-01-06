@@ -54,7 +54,7 @@ const Footer = () => {
 
         <div className="row">
           <div className="col">
-            <p>&copy; 2023 Nordic Air Group. All Rights Reserved.</p>
+            <p>&copy; 2024 Nordic Air Group. All Rights Reserved.</p>
           </div>
         </div>
       </div>
