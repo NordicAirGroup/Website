@@ -53,7 +53,7 @@ function ContactForm() {
 
   return (
     <div className="contact-form">
-      <form>
+      <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
         <input
           type="text"
