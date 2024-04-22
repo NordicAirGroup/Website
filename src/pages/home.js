@@ -46,7 +46,7 @@ function Home() {
             Your browser does not support the video tag.
           </video>
           <h1 className="hero-title">
-            CONNECTING AMBITONS, ONE AIRCRAFT AT A TIME.
+            CONNECTING AMBITIONS, ONE AIRCRAFT AT A TIME.
           </h1>
           <Button className="about-button" component={Link} to="/#about">
             <span className="box">A B O U T</span>
