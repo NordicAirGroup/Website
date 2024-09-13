@@ -2,7 +2,7 @@
 
 .aircraft-card {
   background-color: rgb(17, 18, 31);
-  height: 350px;
+  height: 550px;
   width: 280px;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -21,8 +21,14 @@
 }
 
 .ac-p-container {
-  /* background-color: green; */
-  height: 140px;
+  /*background-color: green;*/
+  height: 165px;
+}
+
+.aircraft-card img {
+  padding-top: 17px;
+  height: 150px;
+  width: auto;
 }
 
 .aircraft-card p {

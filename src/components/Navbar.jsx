@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="left-section">
         <button className="navbutton">
           <Link to="/testimonials" className="navlink">
-            <span>TESTIMONIALS</span>
+            <span>CHARTER BROKERAGE</span>
           </Link>
         </button>
         <button className="navbutton">
@@ -64,13 +64,13 @@ const Navbar = () => {
 
       <div className="right-section">
         <button className="navbutton">
-          <Link to="/#clients" className="navlink" component={Link}>
-            <span>CLIENTS</span>
+          <Link to="/testimonials" className="navlink" component={Link}>
+            <span>NEWS</span>
           </Link>
         </button>
         <button className="navbutton">
-          <Link to="/#services" className="navlink">
-            <span>SERVICES</span>
+          <Link to="/#clients" className="navlink">
+            <span>AVAILABLE AIRCRAFT</span>
           </Link>
         </button>
         <button className="navbutton">
@@ -110,7 +110,7 @@ const Navbar = () => {
             AVIATION
           </Link>
           <Link to="/testimonials" onClick={() => setDropdownVisible(false)}>
-            TESTIMONIALS
+            CHARTER BROKERAGE
           </Link>
         </div>
       </div>
