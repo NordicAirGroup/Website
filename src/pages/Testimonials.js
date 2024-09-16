@@ -5,7 +5,7 @@ function Testimonials() {
   return (
     <div className="Testimonials-container">
       <div className="Testimonials-content">
-        <p>TESTIMONIALS COMING SOON.</p>
+        <p>CHARTER BROKERAGE COMING SOON.</p>
         <p>WILL INCLUDE: VIDEO TESTAMONIALS, DETAILED REVIEWS AND MORE.</p>
         <p>COMING SOON...</p>
       </div>

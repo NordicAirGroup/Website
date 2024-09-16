@@ -6,7 +6,7 @@ import { Button } from "@mui/material";
 const AircraftCard6 = () => {
   return (
     <div className="aircraft-card">
-      <h3>MR. AG</h3>
+      <h3>TEST</h3>
       <div className="aircraft-card-border"></div>
       <div className="ac-p-container">
         <p>

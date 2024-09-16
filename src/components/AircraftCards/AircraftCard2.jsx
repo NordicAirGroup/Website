@@ -8,7 +8,7 @@ const AircraftCard2 = () => {
   return (
     <div className="aircraft-card">
       <img src={JetImage} alt="G650ER" />
-      <h3>MR. S</h3>
+      <h3>TEST</h3>
       <div className="aircraft-card-border"></div>
       <div className="ac-p-container">
         <p>
