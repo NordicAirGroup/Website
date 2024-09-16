@@ -26,7 +26,7 @@ const Clients = () => {
     <div id="clients" className="clients-container">
       <div className="clients-content">
         <div className="client-title-container">
-          <h1>CLIENTS</h1>
+          <h1>AVAILABLE AIRCRAFT</h1>
           <div className="clients-border"></div>
         </div>
         <div className="client-card-container">

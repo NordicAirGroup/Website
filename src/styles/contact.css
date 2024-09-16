@@ -16,6 +16,7 @@
 
 .contact-container-info h1 {
   color: white;
+  z-index: 1;
 }
 
 .contact-container-form {
