@@ -25,12 +25,12 @@ const Services = () => {
           <h3>SERVICE</h3>
           <h1>What can we do for you?</h1>
           <p>
-            We specialize in connecting brokers with potential clients by
-            identifying hot leads. Our process involves discussing aircraft
-            details with contacts, understanding their budget and needs, and
-            referring them to you if a strong fit is identified. Ready for more
-            leads and time-saving solutions? Reach out to us now—don't miss this
-            opportunity!
+            We specialize in helping you find the ideal aircraft. Our process
+            begins with a thorough discussion of your needs, preferences, and
+            requirements. Based on this information, we recommend suitable
+            aircraft options until we identify the perfect match for you. Once
+            we find the right aircraft, we guide you through a streamlined,
+            tailored process to ensure a smooth and successful transaction.
           </p>
           <Button
             className="services-button"
